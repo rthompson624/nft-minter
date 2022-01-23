@@ -1,7 +1,6 @@
 import React from "react";
 import NftItem from "./contracts/NftItem.json";
 import getWeb3 from "./getWeb3";
-import "./App.css";
 
 export default function App() {
   const [web3, setWeb3] = React.useState(null);
@@ -52,11 +51,9 @@ export default function App() {
     return <div>Loading Web3, accounts, and contract...</div>;
   }
   return (
-    <div className="App">
-      <h1>Good to Go!</h1>
-      <p>Your Truffle Box is installed and ready.</p>
-      <h2>Mint an NFT!</h2>
-      <button onClick={ () => handleButtonClick() }>Test</button>
+    <div className="container mx-auto">
+      <div>Let's Roll!</div>
+      <button className="p-2 bg-blue-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600" onClick={ () => handleButtonClick() }>Mint NFT</button>
     </div>
   );
 }
