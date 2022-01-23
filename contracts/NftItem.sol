@@ -7,6 +7,14 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract NftItem is ERC721URIStorage {
   using Counters for Counters.Counter;
+
+  struct MintedNft {
+    uint256 tokenId;
+    address creator;
+    string tokenURI;
+  }
+
+  MintedNft[] private mintedNfts;
   Counters.Counter private _tokenIds;
 
   constructor() ERC721("NftItem", "NFT") {}
@@ -16,6 +24,16 @@ contract NftItem is ERC721URIStorage {
     uint256 newItemId = _tokenIds.current();
     _mint(creator, newItemId);
     _setTokenURI(newItemId, tokenURI);
+    mintedNfts.push(MintedNft({
+      tokenId: newItemId,
+      creator: creator,
+      tokenURI: tokenURI
+    }));
     return newItemId;
   }
+
+  function readNfts() public view returns (MintedNft[] memory) {
+    return mintedNfts;
+  }
+
 }

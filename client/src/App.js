@@ -44,6 +44,8 @@ export default function App() {
   async function handleButtonClick() {
     const nftId = await nftItemContract.methods.createItem(accounts[0], 'myurl/is/bogus').send({ from: accounts[0] });
     console.log(nftId);
+    const allNfts = await nftItemContract.methods.readNfts().call();
+    console.log(JSON.stringify(allNfts));
   }
 
   if (!web3) {
