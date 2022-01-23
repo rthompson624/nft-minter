@@ -1,0 +1,17 @@
+{
+  "name": "nft-minter",
+  "version": "1.0.0",
+  "description": "This npm is strictly for Solidity contract packages",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2"
+  }
+}
