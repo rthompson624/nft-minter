@@ -51,9 +51,23 @@ export default function App() {
     return <div>Loading Web3, accounts, and contract...</div>;
   }
   return (
-    <div className="container mx-auto">
-      <div>Let's Roll!</div>
-      <button className="p-2 bg-blue-600 rounded-lg font-bold text-white mt-5 hover:bg-gray-600" onClick={ () => handleButtonClick() }>Mint NFT</button>
+    <div>
+      <div className="h-1 bg-blue-500 sticky top-0 animate-pulse">Loading Indicator</div>
+      <div className="h-16 shadow-md sticky top-1 bg-white text-center pt-4">Navbar</div>
+      <div className="h-44 border-b-2 text-center pt-4">
+        <div>Collection Stats & Description</div>
+        <div className="pt-5">
+          <div className="text-2xl font-mono font-bold">Let's Roll!</div>
+          <button className="p-2 bg-blue-600 rounded-lg font-mono font-bold text-white mt-5 hover:bg-cyan-500" onClick={ () => handleButtonClick() }>Mint NFT</button>
+        </div>
+      </div>
+      <div className="flex flex-col sm:flex-row">
+        <div className="sm:w-80 shrink-0 h-20">Filter</div>
+        <div className="border-l-2 ">
+          <div className="h-12">Search & Sort Controls</div>
+          <div className="shrink pt-10 h-screen">NFT Cards</div>
+        </div>
+      </div>
     </div>
   );
 }
