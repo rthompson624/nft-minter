@@ -65,7 +65,7 @@ export default function App() {
         <div className="sm:w-80 shrink-0 h-10 p-4">[ Filter Controls ]</div>
         <div className="border-l-2 w-full p-4">
           <div className="h-12">[ Search & Sort Controls ]</div>
-          <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
             <div className="rounded border-2 border-gray-200 hover:shadow-lg hover:cursor-pointer flex flex-col">
               <div className="h-48 bg-no-repeat bg-contain bg-center" style={{ backgroundImage: "url(/logo192.png)" }}></div>
               <div className="flex flex-nowrap justify-between mt-4 p-2">
