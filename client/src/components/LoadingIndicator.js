@@ -7,6 +7,6 @@ export default function LoadingIndicator({ loading }) {
     );
   }
   return (
-    <div className="h-1 sticky top-0">Loading Indicator</div>
+    <div className="h-1 bg-white sticky top-0">Loading Indicator</div>
   );
 }

@@ -65,7 +65,6 @@ export default function App() {
       const records = await response.json();
       setNftRecords(records);
       setError(null);
-      console.log(records);
     } else {
       const errorMessage = `Error fetching NFT records. Status: ${response.status}. ${response.statusText}`;
       console.error(errorMessage);
@@ -73,12 +72,16 @@ export default function App() {
     }
   }
 
-  async function mint() {
+  async function mintOld() {
     const nftId = await nftItemContract.methods.createItem(accounts[0], 'myurl/is/bogus').send({ from: accounts[0] });
     console.log(nftId);
     const allNfts = await nftItemContract.methods.readNfts().call();
     console.log(JSON.stringify(allNfts));
     setError(null);
+  }
+
+  function mintNft(id) {
+    console.log(`Let's mint id ${id}`);
   }
 
   if (!web3) {
@@ -88,14 +91,12 @@ export default function App() {
     <div>
       <LoadingIndicator loading={ loading } />
       <Navbar />
-      <Summary
-        onMint={ () => mint() }
-      />
+      <Summary />
       <div className="flex flex-col sm:flex-row">
         <Filter />
         <div className="border-l-2 w-full p-4">
           <SearchSort />
-          <List nftRecords={ nftRecords } />
+          <List nftRecords={ nftRecords } onMint={ (id) => mintNft(id) } />
         </div>
       </div>
     </div>
