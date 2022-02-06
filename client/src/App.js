@@ -95,7 +95,7 @@ export default function App() {
         <Filter />
         <div className="border-l-2 w-full p-4">
           <SearchSort />
-          <List />
+          <List nftRecords={ nftRecords } />
         </div>
       </div>
     </div>
