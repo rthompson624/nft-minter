@@ -1,6 +1,7 @@
 import React from "react";
 import NftItem from "./contracts/NftItem.json";
 import getWeb3 from "./getWeb3";
+import { delay } from "./utils";
 import LoadingIndicator from "./components/LoadingIndicator";
 import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
@@ -9,7 +10,7 @@ import SearchSort from "./components/SearchSort";
 import List from "./components/List";
 
 export default function App() {
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [nftRecords, setNftRecords] = React.useState([]);
   const [web3, setWeb3] = React.useState(null);
@@ -22,6 +23,7 @@ export default function App() {
   }, []);
 
   async function initializeApp() {
+    setLoading(true);
     await Promise.all([initializeWeb3(), getNftRecords()]);
     setLoading(false);
   }
@@ -46,20 +48,23 @@ export default function App() {
       setWeb3(web3Local);
       setNftItemContract(nftItemContractLocal);
       setAccounts(accountsLocal);
+      setError(null);
     } catch (error) {
       // Catch any errors for any of the above operations.
-      alert(
-        `Failed to load web3, accounts, or contract. Check console for details.`,
-      );
+      alert(`Failed to load web3, accounts, or contract. Check console for details.`);
       console.error(error);
+      setError(error);
     }  
   }
 
   async function getNftRecords() {
+    // TODO: Remove delay when done testing
+    await delay(2000);
     const response = await fetch ('/nft-db.json');
     if (response.ok) {
       const records = await response.json();
       setNftRecords(records);
+      setError(null);
       console.log(records);
     } else {
       const errorMessage = `Error fetching NFT records. Status: ${response.status}. ${response.statusText}`;
@@ -73,6 +78,7 @@ export default function App() {
     console.log(nftId);
     const allNfts = await nftItemContract.methods.readNfts().call();
     console.log(JSON.stringify(allNfts));
+    setError(null);
   }
 
   if (!web3) {
@@ -80,7 +86,7 @@ export default function App() {
   }
   return (
     <div>
-      <LoadingIndicator />
+      <LoadingIndicator loading={ loading } />
       <Navbar />
       <Summary
         onMint={ () => mint() }
