@@ -36,7 +36,10 @@ export default function List({ nftRecords, onMint }) {
                 })
               }
               <div className="flex flex-nowrap justify-center">
-                <button className="px-2 bg-blue-600 rounded-lg font-mono font-bold text-white hover:bg-cyan-500" onClick={ () => onMint(nft.id) }>Mint</button>
+                {nft.minted
+                  ?<div className="text-green-500 font-mono font-bold">Minted</div>
+                  :<button className="px-2 bg-blue-600 rounded-lg font-mono font-bold text-white hover:bg-cyan-500" onClick={ () => onMint(nft.id) }>Mint</button>
+                }
               </div>
             </div>
           )

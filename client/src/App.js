@@ -1,7 +1,6 @@
 import React from "react";
-import NftItem from "./contracts/NftItem.json";
+import GroovyDudesToken from "./contracts/GroovyDudesToken.json";
 import getWeb3 from "./getWeb3";
-import { delay } from "./utils";
 import LoadingIndicator from "./components/LoadingIndicator";
 import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
@@ -15,7 +14,7 @@ export default function App() {
   const [nftRecords, setNftRecords] = React.useState([]);
   const [web3, setWeb3] = React.useState(null);
   const [accounts, setAccounts] = React.useState(null);
-  const [nftItemContract, setNftItemContract] = React.useState(null);
+  const [groovyDudesTokenContract, setGroovyDudesTokenContract] = React.useState(null);
 
   // Application load event
   React.useEffect(() => {
@@ -24,7 +23,8 @@ export default function App() {
 
   async function initializeApp() {
     setLoading(true);
-    await Promise.all([initializeWeb3(), getNftRecords()]);
+    await getNftRecords();
+    await initializeWeb3();
     setLoading(false);
   }
 
@@ -38,17 +38,18 @@ export default function App() {
 
       // Get the contract instance.
       const networkId = await web3Local.eth.net.getId();
-      const deployedNetwork = NftItem.networks[networkId];
-      const nftItemContractLocal = new web3Local.eth.Contract(
-        NftItem.abi,
+      const deployedNetwork = GroovyDudesToken.networks[networkId];
+      const groovyDudesTokenContractInstance = new web3Local.eth.Contract(
+        GroovyDudesToken.abi,
         deployedNetwork && deployedNetwork.address,
       );
 
       // Set state variables
       setWeb3(web3Local);
-      setNftItemContract(nftItemContractLocal);
+      setGroovyDudesTokenContract(groovyDudesTokenContractInstance);
       setAccounts(accountsLocal);
       setError(null);
+      markMintedNfts(groovyDudesTokenContractInstance);
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(`Failed to load web3, accounts, or contract. Check console for details.`);
@@ -58,8 +59,6 @@ export default function App() {
   }
 
   async function getNftRecords() {
-    // TODO: Remove delay when done testing
-    await delay(2000);
     const response = await fetch ('/nft-db.json');
     if (response.ok) {
       const records = await response.json();
@@ -72,21 +71,31 @@ export default function App() {
     }
   }
 
-  async function mintOld() {
-    const nftId = await nftItemContract.methods.createItem(accounts[0], 'myurl/is/bogus').send({ from: accounts[0] });
-    console.log(nftId);
-    const allNfts = await nftItemContract.methods.readNfts().call();
-    console.log(JSON.stringify(allNfts));
+  async function mintNft(id) {
+    const uri = `https://gateway.pinata.cloud/ipfs/QmUUmP7kQKWDmYSW8vEdZTADm8fdCdvDdx42ZCBvJe5WaL/${id}.json`;
+    await groovyDudesTokenContract.methods.mintByUser(id, accounts[0], uri).send({ from: accounts[0], value: 50000000000000000 });
     setError(null);
+    await markMintedNfts(groovyDudesTokenContract);
   }
 
-  function mintNft(id) {
-    console.log(`Let's mint id ${id}`);
+  async function markMintedNfts(contract) {
+    const mintedIds = [];
+    const count = await contract.methods.totalSupply().call();
+    for (let i = 0; i < count; i++) {
+      const tokenId = await contract.methods.tokenByIndex(i).call();
+      mintedIds.push(parseInt(tokenId), 10);
+    }
+    setNftRecords(prevRecords => {
+      return prevRecords.map(record => {
+        if (mintedIds.includes(record.id)) {
+          return { ...record, minted: true };
+        } else {
+          return record;
+        }
+      });
+    });
   }
 
-  if (!web3) {
-    return <div>Loading Web3, accounts, and contract...</div>;
-  }
   return (
     <div>
       <LoadingIndicator loading={ loading } />
