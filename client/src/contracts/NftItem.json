@@ -5576,7 +5576,7 @@
                 }
               ]
             },
-            "name": "array_length_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+            "name": "array_length_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -5662,7 +5662,7 @@
                 }
               ]
             },
-            "name": "array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -5745,7 +5745,7 @@
                 }
               ]
             },
-            "name": "array_dataslot_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+            "name": "array_dataslot_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -6554,7 +6554,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr",
+            "name": "abi_encode_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -6602,7 +6602,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr",
+                      "name": "abi_encode_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "11296:87:16"
                     },
@@ -6619,7 +6619,7 @@
                 }
               ]
             },
-            "name": "abi_encodeUpdatedPos_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr",
+            "name": "abi_encodeUpdatedPos_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -6686,7 +6686,7 @@
                 }
               ]
             },
-            "name": "array_nextElement_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+            "name": "array_nextElement_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -6723,7 +6723,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_length_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_length_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "11820:74:16"
                     },
@@ -6756,7 +6756,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "11917:100:16"
                     },
@@ -6851,7 +6851,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "array_dataslot_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+                      "name": "array_dataslot_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
                       "nodeType": "YulIdentifier",
                       "src": "12131:76:16"
                     },
@@ -6975,7 +6975,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "abi_encodeUpdatedPos_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr",
+                            "name": "abi_encodeUpdatedPos_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "12428:97:16"
                           },
@@ -7002,7 +7002,7 @@
                             }
                           ],
                           "functionName": {
-                            "name": "array_nextElement_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+                            "name": "array_nextElement_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
                             "nodeType": "YulIdentifier",
                             "src": "12569:79:16"
                           },
@@ -7176,7 +7176,7 @@
                 }
               ]
             },
-            "name": "abi_encode_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack",
+            "name": "abi_encode_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -7317,7 +7317,7 @@
                       }
                     ],
                     "functionName": {
-                      "name": "abi_encode_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack",
+                      "name": "abi_encode_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack",
                       "nodeType": "YulIdentifier",
                       "src": "13063:147:16"
                     },
@@ -7334,7 +7334,7 @@
                 }
               ]
             },
-            "name": "abi_encode_tuple_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
+            "name": "abi_encode_tuple_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr__fromStack_reversed",
             "nodeType": "YulFunctionDefinition",
             "parameters": [
               {
@@ -17537,7 +17537,7 @@
           }
         ]
       },
-      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_bytes4(value) -> cleaned {\n        cleaned := and(value, 0xffffffff00000000000000000000000000000000000000000000000000000000)\n    }\n\n    function validator_revert_t_bytes4(value) {\n        if iszero(eq(value, cleanup_t_bytes4(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bytes4(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_tuple_t_bool__to_t_bool__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_bool_to_t_bool_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        if gt(i, length)\n        {\n            // clear end\n            mstore(add(dst, length), 0)\n        }\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr__to_t_string_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory(src, dst, length) {\n        calldatacopy(dst, src, length)\n        // clear end\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_addresst_string_memory_ptr(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 32))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value1 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_length_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    // struct NftItem.MintedNft -> struct NftItem.MintedNft\n    function abi_encode_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x60)\n\n        {\n            // tokenId\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // creator\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // tokenURI\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct NftItem.MintedNft[] -> struct NftItem.MintedNft[]\n    function abi_encode_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_MintedNft_$2403_memory_ptr_to_t_struct$_MintedNft_$2403_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function validator_revert_t_bool(value) {\n        if iszero(eq(value, cleanup_t_bool(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bool(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bool(value)\n    }\n\n    function abi_decode_tuple_t_addresst_bool(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_bool(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_allocation_size_t_bytes_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function abi_decode_available_length_t_bytes_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_bytes_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory(src, dst, length)\n    }\n\n    // bytes\n    function abi_decode_t_bytes_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_bytes_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256t_bytes_memory_ptr(headStart, dataEnd) -> value0, value1, value2, value3 {\n        if slt(sub(dataEnd, headStart), 128) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 96))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value3 := abi_decode_t_bytes_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_address(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function store_literal_in_memory_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approved query for nonex\")\n\n        mstore(add(memPtr, 32), \"istent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 44)\n        store_literal_in_memory_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approval to current owne\")\n\n        mstore(add(memPtr, 32), \"r\")\n\n    }\n\n    function abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 33)\n        store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve caller is not ow\")\n\n        mstore(add(memPtr, 32), \"ner nor approved for all\")\n\n    }\n\n    function abi_encode_t_stringliteral_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 56)\n        store_literal_in_memory_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer caller is not o\")\n\n        mstore(add(memPtr, 32), \"wner nor approved\")\n\n    }\n\n    function abi_encode_t_stringliteral_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 49)\n        store_literal_in_memory_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: owner query for nonexist\")\n\n        mstore(add(memPtr, 32), \"ent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 41)\n        store_literal_in_memory_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: balance query for the ze\")\n\n        mstore(add(memPtr, 32), \"ro address\")\n\n    }\n\n    function abi_encode_t_stringliteral_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 42)\n        store_literal_in_memory_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721URIStorage: URI query for \")\n\n        mstore(add(memPtr, 32), \"nonexistent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 49)\n        store_literal_in_memory_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length) -> updated_pos {\n        updated_pos := pos\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, length)\n    }\n\n    function abi_encode_tuple_packed_t_string_memory_ptr_t_string_memory_ptr__to_t_string_memory_ptr_t_string_memory_ptr__nonPadded_inplace_fromStack_reversed(pos , value1, value0) -> end {\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value0,  pos)\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value1,  pos)\n\n        end := pos\n    }\n\n    function store_literal_in_memory_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: operator query for nonex\")\n\n        mstore(add(memPtr, 32), \"istent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 44)\n        store_literal_in_memory_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer of token that i\")\n\n        mstore(add(memPtr, 32), \"s not own\")\n\n    }\n\n    function abi_encode_t_stringliteral_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 41)\n        store_literal_in_memory_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to the zero add\")\n\n        mstore(add(memPtr, 32), \"ress\")\n\n    }\n\n    function abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 36)\n        store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_sub_t_uint256(x, y) -> diff {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n\n        if lt(x, y) { panic_error_0x11() }\n\n        diff := sub(x, y)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n\n        // overflow, if x > (maxValue - y)\n        if gt(x, sub(0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, y)) { panic_error_0x11() }\n\n        sum := add(x, y)\n    }\n\n    function store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: mint to the zero address\")\n\n    }\n\n    function abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: token already minted\")\n\n    }\n\n    function abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 28)\n        store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721URIStorage: URI set of non\")\n\n        mstore(add(memPtr, 32), \"existent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 46)\n        store_literal_in_memory_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve to caller\")\n\n    }\n\n    function abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 25)\n        store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to non ERC721Re\")\n\n        mstore(add(memPtr, 32), \"ceiver implementer\")\n\n    }\n\n    function abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 50)\n        store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721Metadata: URI query for no\")\n\n        mstore(add(memPtr, 32), \"nexistent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 47)\n        store_literal_in_memory_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function array_length_t_bytes_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_bytes_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_address_t_address_t_uint256_t_bytes_memory_ptr__to_t_address_t_address_t_uint256_t_bytes_memory_ptr__fromStack_reversed(headStart , value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 128)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        mstore(add(headStart, 96), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value3,  tail)\n\n    }\n\n    function abi_decode_t_bytes4_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function panic_error_0x12() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x12)\n        revert(0, 0x24)\n    }\n\n    function checked_div_t_uint256(x, y) -> r {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        if iszero(y) { panic_error_0x12() }\n\n        r := div(x, y)\n    }\n\n    function mod_t_uint256(x, y) -> r {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        if iszero(y) { panic_error_0x12() }\n        r := mod(x, y)\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n}\n",
+      "contents": "{\n\n    function allocate_unbounded() -> memPtr {\n        memPtr := mload(64)\n    }\n\n    function revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() {\n        revert(0, 0)\n    }\n\n    function revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() {\n        revert(0, 0)\n    }\n\n    function cleanup_t_bytes4(value) -> cleaned {\n        cleaned := and(value, 0xffffffff00000000000000000000000000000000000000000000000000000000)\n    }\n\n    function validator_revert_t_bytes4(value) {\n        if iszero(eq(value, cleanup_t_bytes4(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bytes4(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_bool(value) -> cleaned {\n        cleaned := iszero(iszero(value))\n    }\n\n    function abi_encode_t_bool_to_t_bool_fromStack(value, pos) {\n        mstore(pos, cleanup_t_bool(value))\n    }\n\n    function abi_encode_tuple_t_bool__to_t_bool__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_bool_to_t_bool_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function array_length_t_string_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function copy_memory_to_memory(src, dst, length) {\n        let i := 0\n        for { } lt(i, length) { i := add(i, 32) }\n        {\n            mstore(add(dst, i), mload(add(src, i)))\n        }\n        if gt(i, length)\n        {\n            // clear end\n            mstore(add(dst, length), 0)\n        }\n    }\n\n    function round_up_to_mul_of_32(value) -> result {\n        result := and(add(value, 31), not(31))\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_string_memory_ptr__to_t_string_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function cleanup_t_uint256(value) -> cleaned {\n        cleaned := value\n    }\n\n    function validator_revert_t_uint256(value) {\n        if iszero(eq(value, cleanup_t_uint256(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_uint256(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_uint256(value)\n    }\n\n    function abi_decode_tuple_t_uint256(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function cleanup_t_uint160(value) -> cleaned {\n        cleaned := and(value, 0xffffffffffffffffffffffffffffffffffffffff)\n    }\n\n    function cleanup_t_address(value) -> cleaned {\n        cleaned := cleanup_t_uint160(value)\n    }\n\n    function abi_encode_t_address_to_t_address_fromStack(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function abi_encode_tuple_t_address__to_t_address__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function validator_revert_t_address(value) {\n        if iszero(eq(value, cleanup_t_address(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_address(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_address(value)\n    }\n\n    function abi_decode_tuple_t_addresst_uint256(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256(headStart, dataEnd) -> value0, value1, value2 {\n        if slt(sub(dataEnd, headStart), 96) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() {\n        revert(0, 0)\n    }\n\n    function revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() {\n        revert(0, 0)\n    }\n\n    function panic_error_0x41() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x41)\n        revert(0, 0x24)\n    }\n\n    function finalize_allocation(memPtr, size) {\n        let newFreePtr := add(memPtr, round_up_to_mul_of_32(size))\n        // protect against overflow\n        if or(gt(newFreePtr, 0xffffffffffffffff), lt(newFreePtr, memPtr)) { panic_error_0x41() }\n        mstore(64, newFreePtr)\n    }\n\n    function allocate_memory(size) -> memPtr {\n        memPtr := allocate_unbounded()\n        finalize_allocation(memPtr, size)\n    }\n\n    function array_allocation_size_t_string_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function copy_calldata_to_memory(src, dst, length) {\n        calldatacopy(dst, src, length)\n        // clear end\n        mstore(add(dst, length), 0)\n    }\n\n    function abi_decode_available_length_t_string_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_string_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory(src, dst, length)\n    }\n\n    // string\n    function abi_decode_t_string_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_string_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_addresst_string_memory_ptr(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 32))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value1 := abi_decode_t_string_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256_fromStack(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_tuple_t_uint256__to_t_uint256__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value0,  add(headStart, 0))\n\n    }\n\n    function abi_decode_tuple_t_address(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_length_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function array_dataslot_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr(ptr) -> data {\n        data := ptr\n\n        data := add(ptr, 0x20)\n\n    }\n\n    function abi_encode_t_uint256_to_t_uint256(value, pos) {\n        mstore(pos, cleanup_t_uint256(value))\n    }\n\n    function abi_encode_t_address_to_t_address(value, pos) {\n        mstore(pos, cleanup_t_address(value))\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    // struct NftItem.MintedNft -> struct NftItem.MintedNft\n    function abi_encode_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr(value, pos)  -> end  {\n        let tail := add(pos, 0x60)\n\n        {\n            // tokenId\n\n            let memberValue0 := mload(add(value, 0x00))\n            abi_encode_t_uint256_to_t_uint256(memberValue0, add(pos, 0x00))\n        }\n\n        {\n            // creator\n\n            let memberValue0 := mload(add(value, 0x20))\n            abi_encode_t_address_to_t_address(memberValue0, add(pos, 0x20))\n        }\n\n        {\n            // tokenURI\n\n            let memberValue0 := mload(add(value, 0x40))\n\n            mstore(add(pos, 0x40), sub(tail, pos))\n            tail := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr(memberValue0, tail)\n\n        }\n\n        end := tail\n    }\n\n    function abi_encodeUpdatedPos_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr(value0, pos) -> updatedPos {\n        updatedPos := abi_encode_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr(value0, pos)\n    }\n\n    function array_nextElement_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr(ptr) -> next {\n        next := add(ptr, 0x20)\n    }\n\n    // struct NftItem.MintedNft[] -> struct NftItem.MintedNft[]\n    function abi_encode_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack(value, pos)  -> end  {\n        let length := array_length_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack(pos, length)\n        let headStart := pos\n        let tail := add(pos, mul(length, 0x20))\n        let baseRef := array_dataslot_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr(value)\n        let srcPtr := baseRef\n        for { let i := 0 } lt(i, length) { i := add(i, 1) }\n        {\n            mstore(pos, sub(tail, headStart))\n            let elementValue0 := mload(srcPtr)\n            tail := abi_encodeUpdatedPos_t_struct$_MintedNft_$2429_memory_ptr_to_t_struct$_MintedNft_$2429_memory_ptr(elementValue0, tail)\n            srcPtr := array_nextElement_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr(srcPtr)\n            pos := add(pos, 0x20)\n        }\n        pos := tail\n        end := pos\n    }\n\n    function abi_encode_tuple_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr__to_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr__fromStack_reversed(headStart , value0) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_to_t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr_fromStack(value0,  tail)\n\n    }\n\n    function validator_revert_t_bool(value) {\n        if iszero(eq(value, cleanup_t_bool(value))) { revert(0, 0) }\n    }\n\n    function abi_decode_t_bool(offset, end) -> value {\n        value := calldataload(offset)\n        validator_revert_t_bool(value)\n    }\n\n    function abi_decode_tuple_t_addresst_bool(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_bool(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function array_allocation_size_t_bytes_memory_ptr(length) -> size {\n        // Make sure we can allocate memory without overflow\n        if gt(length, 0xffffffffffffffff) { panic_error_0x41() }\n\n        size := round_up_to_mul_of_32(length)\n\n        // add length slot\n        size := add(size, 0x20)\n\n    }\n\n    function abi_decode_available_length_t_bytes_memory_ptr(src, length, end) -> array {\n        array := allocate_memory(array_allocation_size_t_bytes_memory_ptr(length))\n        mstore(array, length)\n        let dst := add(array, 0x20)\n        if gt(add(src, length), end) { revert_error_987264b3b1d58a9c7f8255e93e81c77d86d6299019c33110a076957a3e06e2ae() }\n        copy_calldata_to_memory(src, dst, length)\n    }\n\n    // bytes\n    function abi_decode_t_bytes_memory_ptr(offset, end) -> array {\n        if iszero(slt(add(offset, 0x1f), end)) { revert_error_1b9f4a0a5773e33b91aa01db23bf8c55fce1411167c872835e7fa00a4f17d46d() }\n        let length := calldataload(offset)\n        array := abi_decode_available_length_t_bytes_memory_ptr(add(offset, 0x20), length, end)\n    }\n\n    function abi_decode_tuple_t_addresst_addresst_uint256t_bytes_memory_ptr(headStart, dataEnd) -> value0, value1, value2, value3 {\n        if slt(sub(dataEnd, headStart), 128) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 64\n\n            value2 := abi_decode_t_uint256(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := calldataload(add(headStart, 96))\n            if gt(offset, 0xffffffffffffffff) { revert_error_c1322bf8034eace5e0b5c7295db60986aa89aae5e0ea0873e4689e076861a5db() }\n\n            value3 := abi_decode_t_bytes_memory_ptr(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function abi_decode_tuple_t_addresst_address(headStart, dataEnd) -> value0, value1 {\n        if slt(sub(dataEnd, headStart), 64) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n        {\n\n            let offset := 32\n\n            value1 := abi_decode_t_address(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function panic_error_0x22() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x22)\n        revert(0, 0x24)\n    }\n\n    function extract_byte_array_length(data) -> length {\n        length := div(data, 2)\n        let outOfPlaceEncoding := and(data, 1)\n        if iszero(outOfPlaceEncoding) {\n            length := and(length, 0x7f)\n        }\n\n        if eq(outOfPlaceEncoding, lt(length, 32)) {\n            panic_error_0x22()\n        }\n    }\n\n    function store_literal_in_memory_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approved query for nonex\")\n\n        mstore(add(memPtr, 32), \"istent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 44)\n        store_literal_in_memory_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_9291e0f44949204f2e9b40e6be090924979d6047b2365868f4e9f027722eb89d_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approval to current owne\")\n\n        mstore(add(memPtr, 32), \"r\")\n\n    }\n\n    function abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 33)\n        store_literal_in_memory_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_b51b4875eede07862961e8f9365c6749f5fe55c6ee5d7a9e42b6912ad0b15942_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve caller is not ow\")\n\n        mstore(add(memPtr, 32), \"ner nor approved for all\")\n\n    }\n\n    function abi_encode_t_stringliteral_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 56)\n        store_literal_in_memory_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_6d83cef3e0cb19b8320a9c5feb26b56bbb08f152a8e61b12eca3302d8d68b23d_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer caller is not o\")\n\n        mstore(add(memPtr, 32), \"wner nor approved\")\n\n    }\n\n    function abi_encode_t_stringliteral_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 49)\n        store_literal_in_memory_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_c8682f3ad98807db59a6ec6bb812b72fed0a66e3150fa8239699ee83885247f2_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: owner query for nonexist\")\n\n        mstore(add(memPtr, 32), \"ent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 41)\n        store_literal_in_memory_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7481f3df2a424c0755a1ad2356614e9a5a358d461ea2eae1f89cb21cbad00397_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: balance query for the ze\")\n\n        mstore(add(memPtr, 32), \"ro address\")\n\n    }\n\n    function abi_encode_t_stringliteral_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 42)\n        store_literal_in_memory_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7395d4d3901c50cdfcab223d072f9aa36241df5d883e62cbf147ee1b05a9e6ba_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721URIStorage: URI query for \")\n\n        mstore(add(memPtr, 32), \"nonexistent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 49)\n        store_literal_in_memory_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8e9ed1638ba7e2d59e03d0957c9339381732ac84d73f65c86c45db1467eafa2a_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length) -> updated_pos {\n        updated_pos := pos\n    }\n\n    function abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value, pos) -> end {\n        let length := array_length_t_string_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_nonPadded_inplace_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, length)\n    }\n\n    function abi_encode_tuple_packed_t_string_memory_ptr_t_string_memory_ptr__to_t_string_memory_ptr_t_string_memory_ptr__nonPadded_inplace_fromStack_reversed(pos , value1, value0) -> end {\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value0,  pos)\n\n        pos := abi_encode_t_string_memory_ptr_to_t_string_memory_ptr_nonPadded_inplace_fromStack(value1,  pos)\n\n        end := pos\n    }\n\n    function store_literal_in_memory_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: operator query for nonex\")\n\n        mstore(add(memPtr, 32), \"istent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 44)\n        store_literal_in_memory_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_5797d1ccb08b83980dd0c07ea40d8f6a64d35fff736a19bdd17522954cb0899c_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer of token that i\")\n\n        mstore(add(memPtr, 32), \"s not own\")\n\n    }\n\n    function abi_encode_t_stringliteral_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 41)\n        store_literal_in_memory_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_a01073130a885d6c1c1af6ac75fc3b1c4f9403c235362962bbf528e2bd87d950_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to the zero add\")\n\n        mstore(add(memPtr, 32), \"ress\")\n\n    }\n\n    function abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 36)\n        store_literal_in_memory_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_455fea98ea03c32d7dd1a6f1426917d80529bf47b3ccbde74e7206e889e709f4_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function panic_error_0x11() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x11)\n        revert(0, 0x24)\n    }\n\n    function checked_sub_t_uint256(x, y) -> diff {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n\n        if lt(x, y) { panic_error_0x11() }\n\n        diff := sub(x, y)\n    }\n\n    function checked_add_t_uint256(x, y) -> sum {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n\n        // overflow, if x > (maxValue - y)\n        if gt(x, sub(0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff, y)) { panic_error_0x11() }\n\n        sum := add(x, y)\n    }\n\n    function store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: mint to the zero address\")\n\n    }\n\n    function abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 32)\n        store_literal_in_memory_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_8a66f4bb6512ffbfcc3db9b42318eb65f26ac15163eaa9a1e5cfa7bee9d1c7c6_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: token already minted\")\n\n    }\n\n    function abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 28)\n        store_literal_in_memory_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_2a63ce106ef95058ed21fd07c42a10f11dc5c32ac13a4e847923f7759f635d57_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721URIStorage: URI set of non\")\n\n        mstore(add(memPtr, 32), \"existent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 46)\n        store_literal_in_memory_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_7521de1f20ce4d7bb86b61090bad73a87315a1f4baff36cc352901c7777280c4_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: approve to caller\")\n\n    }\n\n    function abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 25)\n        store_literal_in_memory_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05(pos)\n        end := add(pos, 32)\n    }\n\n    function abi_encode_tuple_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_45fe4329685be5ecd250fd0e6a25aea0ea4d0e30fb6a73c118b95749e6d70d05_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721: transfer to non ERC721Re\")\n\n        mstore(add(memPtr, 32), \"ceiver implementer\")\n\n    }\n\n    function abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 50)\n        store_literal_in_memory_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_1e766a06da43a53d0f4c380e06e5a342e14d5af1bf8501996c844905530ca84e_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function store_literal_in_memory_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb(memPtr) {\n\n        mstore(add(memPtr, 0), \"ERC721Metadata: URI query for no\")\n\n        mstore(add(memPtr, 32), \"nexistent token\")\n\n    }\n\n    function abi_encode_t_stringliteral_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb_to_t_string_memory_ptr_fromStack(pos) -> end {\n        pos := array_storeLengthForEncoding_t_string_memory_ptr_fromStack(pos, 47)\n        store_literal_in_memory_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb(pos)\n        end := add(pos, 64)\n    }\n\n    function abi_encode_tuple_t_stringliteral_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb__to_t_string_memory_ptr__fromStack_reversed(headStart ) -> tail {\n        tail := add(headStart, 32)\n\n        mstore(add(headStart, 0), sub(tail, headStart))\n        tail := abi_encode_t_stringliteral_a2d45c0fba603d40d82d590051761ca952d1ab9d78cca6d0d464d7b6e961a9cb_to_t_string_memory_ptr_fromStack( tail)\n\n    }\n\n    function array_length_t_bytes_memory_ptr(value) -> length {\n\n        length := mload(value)\n\n    }\n\n    function array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length) -> updated_pos {\n        mstore(pos, length)\n        updated_pos := add(pos, 0x20)\n    }\n\n    function abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value, pos) -> end {\n        let length := array_length_t_bytes_memory_ptr(value)\n        pos := array_storeLengthForEncoding_t_bytes_memory_ptr_fromStack(pos, length)\n        copy_memory_to_memory(add(value, 0x20), pos, length)\n        end := add(pos, round_up_to_mul_of_32(length))\n    }\n\n    function abi_encode_tuple_t_address_t_address_t_uint256_t_bytes_memory_ptr__to_t_address_t_address_t_uint256_t_bytes_memory_ptr__fromStack_reversed(headStart , value3, value2, value1, value0) -> tail {\n        tail := add(headStart, 128)\n\n        abi_encode_t_address_to_t_address_fromStack(value0,  add(headStart, 0))\n\n        abi_encode_t_address_to_t_address_fromStack(value1,  add(headStart, 32))\n\n        abi_encode_t_uint256_to_t_uint256_fromStack(value2,  add(headStart, 64))\n\n        mstore(add(headStart, 96), sub(tail, headStart))\n        tail := abi_encode_t_bytes_memory_ptr_to_t_bytes_memory_ptr_fromStack(value3,  tail)\n\n    }\n\n    function abi_decode_t_bytes4_fromMemory(offset, end) -> value {\n        value := mload(offset)\n        validator_revert_t_bytes4(value)\n    }\n\n    function abi_decode_tuple_t_bytes4_fromMemory(headStart, dataEnd) -> value0 {\n        if slt(sub(dataEnd, headStart), 32) { revert_error_dbdddcbe895c83990c08b3492a0e83918d802a52331272ac6fdb6a7c4aea3b1b() }\n\n        {\n\n            let offset := 0\n\n            value0 := abi_decode_t_bytes4_fromMemory(add(headStart, offset), dataEnd)\n        }\n\n    }\n\n    function increment_t_uint256(value) -> ret {\n        value := cleanup_t_uint256(value)\n        if eq(value, 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff) { panic_error_0x11() }\n        ret := add(value, 1)\n    }\n\n    function panic_error_0x12() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x12)\n        revert(0, 0x24)\n    }\n\n    function checked_div_t_uint256(x, y) -> r {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        if iszero(y) { panic_error_0x12() }\n\n        r := div(x, y)\n    }\n\n    function mod_t_uint256(x, y) -> r {\n        x := cleanup_t_uint256(x)\n        y := cleanup_t_uint256(y)\n        if iszero(y) { panic_error_0x12() }\n        r := mod(x, y)\n    }\n\n    function panic_error_0x32() {\n        mstore(0, 35408467139433450592217433187231851964531694900788300625387963629091585785856)\n        mstore(4, 0x32)\n        revert(0, 0x24)\n    }\n\n}\n",
       "id": 16,
       "language": "Yul",
       "name": "#utility.yul"
@@ -17581,18 +17581,18 @@
         1069
       ],
       "NftItem": [
-        2472
+        2498
       ],
       "Strings": [
         2189
       ]
     },
-    "id": 2473,
+    "id": 2499,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2387,
+        "id": 2413,
         "literals": [
           "solidity",
           "^",
@@ -17605,10 +17605,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
         "file": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "id": 2388,
+        "id": 2414,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 2473,
+        "scope": 2499,
         "sourceUnit": 936,
         "src": "57:57:15",
         "symbolAliases": [],
@@ -17617,10 +17617,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
         "file": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "id": 2389,
+        "id": 2415,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 2473,
+        "scope": 2499,
         "sourceUnit": 1536,
         "src": "115:78:15",
         "symbolAliases": [],
@@ -17629,10 +17629,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/Counters.sol",
         "file": "@openzeppelin/contracts/utils/Counters.sol",
-        "id": 2390,
+        "id": 2416,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 2473,
+        "scope": 2499,
         "sourceUnit": 1987,
         "src": "194:52:15",
         "symbolAliases": [],
@@ -17643,13 +17643,13 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 2391,
+              "id": 2417,
               "name": "ERC721URIStorage",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 1535,
               "src": "268:16:15"
             },
-            "id": 2392,
+            "id": 2418,
             "nodeType": "InheritanceSpecifier",
             "src": "268:16:15"
           }
@@ -17658,9 +17658,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 2472,
+        "id": 2498,
         "linearizedBaseContracts": [
-          2472,
+          2498,
           1535,
           935,
           1593,
@@ -17674,9 +17674,9 @@
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 2396,
+            "id": 2422,
             "libraryName": {
-              "id": 2393,
+              "id": 2419,
               "name": "Counters",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 1986,
@@ -17685,10 +17685,10 @@
             "nodeType": "UsingForDirective",
             "src": "289:36:15",
             "typeName": {
-              "id": 2395,
+              "id": 2421,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 2394,
+                "id": 2420,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 1918,
@@ -17704,16 +17704,16 @@
           },
           {
             "canonicalName": "NftItem.MintedNft",
-            "id": 2403,
+            "id": 2429,
             "members": [
               {
                 "constant": false,
-                "id": 2398,
+                "id": 2424,
                 "mutability": "mutable",
                 "name": "tokenId",
                 "nameLocation": "360:7:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2403,
+                "scope": 2429,
                 "src": "352:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -17722,7 +17722,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 2397,
+                  "id": 2423,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "352:7:15",
@@ -17735,12 +17735,12 @@
               },
               {
                 "constant": false,
-                "id": 2400,
+                "id": 2426,
                 "mutability": "mutable",
                 "name": "creator",
                 "nameLocation": "381:7:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2403,
+                "scope": 2429,
                 "src": "373:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -17749,7 +17749,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 2399,
+                  "id": 2425,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "373:7:15",
@@ -17763,12 +17763,12 @@
               },
               {
                 "constant": false,
-                "id": 2402,
+                "id": 2428,
                 "mutability": "mutable",
                 "name": "tokenURI",
                 "nameLocation": "401:8:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2403,
+                "scope": 2429,
                 "src": "394:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -17777,7 +17777,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2401,
+                  "id": 2427,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "394:6:15",
@@ -17792,48 +17792,48 @@
             "name": "MintedNft",
             "nameLocation": "336:9:15",
             "nodeType": "StructDefinition",
-            "scope": 2472,
+            "scope": 2498,
             "src": "329:85:15",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 2407,
+            "id": 2433,
             "mutability": "mutable",
             "name": "mintedNfts",
             "nameLocation": "438:10:15",
             "nodeType": "VariableDeclaration",
-            "scope": 2472,
+            "scope": 2498,
             "src": "418:30:15",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage",
               "typeString": "struct NftItem.MintedNft[]"
             },
             "typeName": {
               "baseType": {
-                "id": 2405,
+                "id": 2431,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 2404,
+                  "id": 2430,
                   "name": "MintedNft",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2403,
+                  "referencedDeclaration": 2429,
                   "src": "418:9:15"
                 },
-                "referencedDeclaration": 2403,
+                "referencedDeclaration": 2429,
                 "src": "418:9:15",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_MintedNft_$2403_storage_ptr",
+                  "typeIdentifier": "t_struct$_MintedNft_$2429_storage_ptr",
                   "typeString": "struct NftItem.MintedNft"
                 }
               },
-              "id": 2406,
+              "id": 2432,
               "nodeType": "ArrayTypeName",
               "src": "418:11:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr",
                 "typeString": "struct NftItem.MintedNft[]"
               }
             },
@@ -17841,12 +17841,12 @@
           },
           {
             "constant": false,
-            "id": 2410,
+            "id": 2436,
             "mutability": "mutable",
             "name": "_tokenIds",
             "nameLocation": "477:9:15",
             "nodeType": "VariableDeclaration",
-            "scope": 2472,
+            "scope": 2498,
             "src": "452:34:15",
             "stateVariable": true,
             "storageLocation": "default",
@@ -17855,10 +17855,10 @@
               "typeString": "struct Counters.Counter"
             },
             "typeName": {
-              "id": 2409,
+              "id": 2435,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 2408,
+                "id": 2434,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 1918,
@@ -17875,12 +17875,12 @@
           },
           {
             "body": {
-              "id": 2417,
+              "id": 2443,
               "nodeType": "Block",
               "src": "530:2:15",
               "statements": []
             },
-            "id": 2418,
+            "id": 2444,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -17888,7 +17888,7 @@
                 "arguments": [
                   {
                     "hexValue": "4e66744974656d",
-                    "id": 2413,
+                    "id": 2439,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -17904,7 +17904,7 @@
                   },
                   {
                     "hexValue": "4e4654",
-                    "id": 2414,
+                    "id": 2440,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -17919,10 +17919,10 @@
                     "value": "NFT"
                   }
                 ],
-                "id": 2415,
+                "id": 2441,
                 "kind": "baseConstructorSpecifier",
                 "modifierName": {
-                  "id": 2412,
+                  "id": 2438,
                   "name": "ERC721",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 935,
@@ -17936,18 +17936,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2411,
+              "id": 2437,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "502:2:15"
             },
             "returnParameters": {
-              "id": 2416,
+              "id": 2442,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "530:0:15"
             },
-            "scope": 2472,
+            "scope": 2498,
             "src": "491:41:15",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -17955,7 +17955,7 @@
           },
           {
             "body": {
-              "id": 2460,
+              "id": 2486,
               "nodeType": "Block",
               "src": "622:285:15",
               "statements": [
@@ -17965,18 +17965,18 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 2427,
+                        "id": 2453,
                         "name": "_tokenIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2410,
+                        "referencedDeclaration": 2436,
                         "src": "628:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Counter_$1918_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
-                      "id": 2429,
+                      "id": 2455,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -17990,7 +17990,7 @@
                         "typeString": "function (struct Counters.Counter storage pointer)"
                       }
                     },
-                    "id": 2430,
+                    "id": 2456,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -18005,23 +18005,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2431,
+                  "id": 2457,
                   "nodeType": "ExpressionStatement",
                   "src": "628:21:15"
                 },
                 {
                   "assignments": [
-                    2433
+                    2459
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 2433,
+                      "id": 2459,
                       "mutability": "mutable",
                       "name": "newItemId",
                       "nameLocation": "663:9:15",
                       "nodeType": "VariableDeclaration",
-                      "scope": 2460,
+                      "scope": 2486,
                       "src": "655:17:15",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -18030,7 +18030,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 2432,
+                        "id": 2458,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "655:7:15",
@@ -18042,24 +18042,24 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 2437,
+                  "id": 2463,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 2434,
+                        "id": 2460,
                         "name": "_tokenIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2410,
+                        "referencedDeclaration": 2436,
                         "src": "675:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Counter_$1918_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
-                      "id": 2435,
+                      "id": 2461,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -18073,7 +18073,7 @@
                         "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                       }
                     },
-                    "id": 2436,
+                    "id": 2462,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -18095,11 +18095,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2439,
+                        "id": 2465,
                         "name": "creator",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2420,
+                        "referencedDeclaration": 2446,
                         "src": "706:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -18107,11 +18107,11 @@
                         }
                       },
                       {
-                        "id": 2440,
+                        "id": 2466,
                         "name": "newItemId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2433,
+                        "referencedDeclaration": 2459,
                         "src": "715:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -18130,7 +18130,7 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 2438,
+                      "id": 2464,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -18141,7 +18141,7 @@
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 2441,
+                    "id": 2467,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -18156,7 +18156,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2442,
+                  "id": 2468,
                   "nodeType": "ExpressionStatement",
                   "src": "700:25:15"
                 },
@@ -18164,11 +18164,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2444,
+                        "id": 2470,
                         "name": "newItemId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2433,
+                        "referencedDeclaration": 2459,
                         "src": "744:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -18176,11 +18176,11 @@
                         }
                       },
                       {
-                        "id": 2445,
+                        "id": 2471,
                         "name": "tokenURI",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2422,
+                        "referencedDeclaration": 2448,
                         "src": "755:8:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -18199,7 +18199,7 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 2443,
+                      "id": 2469,
                       "name": "_setTokenURI",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -18210,7 +18210,7 @@
                         "typeString": "function (uint256,string memory)"
                       }
                     },
-                    "id": 2446,
+                    "id": 2472,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -18225,7 +18225,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2447,
+                  "id": 2473,
                   "nodeType": "ExpressionStatement",
                   "src": "731:33:15"
                 },
@@ -18235,11 +18235,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 2452,
+                            "id": 2478,
                             "name": "newItemId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2433,
+                            "referencedDeclaration": 2459,
                             "src": "813:9:15",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -18247,11 +18247,11 @@
                             }
                           },
                           {
-                            "id": 2453,
+                            "id": 2479,
                             "name": "creator",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2420,
+                            "referencedDeclaration": 2446,
                             "src": "839:7:15",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -18259,11 +18259,11 @@
                             }
                           },
                           {
-                            "id": 2454,
+                            "id": 2480,
                             "name": "tokenURI",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2422,
+                            "referencedDeclaration": 2448,
                             "src": "864:8:15",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -18286,18 +18286,18 @@
                               "typeString": "string memory"
                             }
                           ],
-                          "id": 2451,
+                          "id": 2477,
                           "name": "MintedNft",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2403,
+                          "referencedDeclaration": 2429,
                           "src": "786:9:15",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_struct$_MintedNft_$2403_storage_ptr_$",
+                            "typeIdentifier": "t_type$_t_struct$_MintedNft_$2429_storage_ptr_$",
                             "typeString": "type(struct NftItem.MintedNft storage pointer)"
                           }
                         },
-                        "id": 2455,
+                        "id": 2481,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -18312,7 +18312,7 @@
                         "src": "786:93:15",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_MintedNft_$2403_memory_ptr",
+                          "typeIdentifier": "t_struct$_MintedNft_$2429_memory_ptr",
                           "typeString": "struct NftItem.MintedNft memory"
                         }
                       }
@@ -18320,23 +18320,23 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_MintedNft_$2403_memory_ptr",
+                          "typeIdentifier": "t_struct$_MintedNft_$2429_memory_ptr",
                           "typeString": "struct NftItem.MintedNft memory"
                         }
                       ],
                       "expression": {
-                        "id": 2448,
+                        "id": 2474,
                         "name": "mintedNfts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2407,
+                        "referencedDeclaration": 2433,
                         "src": "770:10:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage",
                           "typeString": "struct NftItem.MintedNft storage ref[] storage ref"
                         }
                       },
-                      "id": 2450,
+                      "id": 2476,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -18345,11 +18345,11 @@
                       "nodeType": "MemberAccess",
                       "src": "770:15:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr_$_t_struct$_MintedNft_$2403_storage_$returns$__$bound_to$_t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr_$_t_struct$_MintedNft_$2429_storage_$returns$__$bound_to$_t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct NftItem.MintedNft storage ref[] storage pointer,struct NftItem.MintedNft storage ref)"
                       }
                     },
-                    "id": 2456,
+                    "id": 2482,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -18364,32 +18364,32 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2457,
+                  "id": 2483,
                   "nodeType": "ExpressionStatement",
                   "src": "770:110:15"
                 },
                 {
                   "expression": {
-                    "id": 2458,
+                    "id": 2484,
                     "name": "newItemId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2433,
+                    "referencedDeclaration": 2459,
                     "src": "893:9:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2426,
-                  "id": 2459,
+                  "functionReturnParameters": 2452,
+                  "id": 2485,
                   "nodeType": "Return",
                   "src": "886:16:15"
                 }
               ]
             },
             "functionSelector": "26fb76c2",
-            "id": 2461,
+            "id": 2487,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -18397,17 +18397,17 @@
             "nameLocation": "545:10:15",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2423,
+              "id": 2449,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2420,
+                  "id": 2446,
                   "mutability": "mutable",
                   "name": "creator",
                   "nameLocation": "564:7:15",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2461,
+                  "scope": 2487,
                   "src": "556:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -18416,7 +18416,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2419,
+                    "id": 2445,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "556:7:15",
@@ -18430,12 +18430,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 2422,
+                  "id": 2448,
                   "mutability": "mutable",
                   "name": "tokenURI",
                   "nameLocation": "587:8:15",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2461,
+                  "scope": 2487,
                   "src": "573:22:15",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -18444,7 +18444,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2421,
+                    "id": 2447,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "573:6:15",
@@ -18459,17 +18459,17 @@
               "src": "555:41:15"
             },
             "returnParameters": {
-              "id": 2426,
+              "id": 2452,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2425,
+                  "id": 2451,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2461,
+                  "scope": 2487,
                   "src": "613:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -18478,7 +18478,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2424,
+                    "id": 2450,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "613:7:15",
@@ -18492,7 +18492,7 @@
               ],
               "src": "612:9:15"
             },
-            "scope": 2472,
+            "scope": 2498,
             "src": "536:371:15",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -18500,32 +18500,32 @@
           },
           {
             "body": {
-              "id": 2470,
+              "id": 2496,
               "nodeType": "Block",
               "src": "972:28:15",
               "statements": [
                 {
                   "expression": {
-                    "id": 2468,
+                    "id": 2494,
                     "name": "mintedNfts",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2407,
+                    "referencedDeclaration": 2433,
                     "src": "985:10:15",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage",
+                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage",
                       "typeString": "struct NftItem.MintedNft storage ref[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 2467,
-                  "id": 2469,
+                  "functionReturnParameters": 2493,
+                  "id": 2495,
                   "nodeType": "Return",
                   "src": "978:17:15"
                 }
               ]
             },
             "functionSelector": "9f309939",
-            "id": 2471,
+            "id": 2497,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -18533,53 +18533,53 @@
             "nameLocation": "920:8:15",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2462,
+              "id": 2488,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "928:2:15"
             },
             "returnParameters": {
-              "id": 2467,
+              "id": 2493,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2466,
+                  "id": 2492,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2471,
+                  "scope": 2497,
                   "src": "952:18:15",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct NftItem.MintedNft[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 2464,
+                      "id": 2490,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 2463,
+                        "id": 2489,
                         "name": "MintedNft",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 2403,
+                        "referencedDeclaration": 2429,
                         "src": "952:9:15"
                       },
-                      "referencedDeclaration": 2403,
+                      "referencedDeclaration": 2429,
                       "src": "952:9:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_MintedNft_$2403_storage_ptr",
+                        "typeIdentifier": "t_struct$_MintedNft_$2429_storage_ptr",
                         "typeString": "struct NftItem.MintedNft"
                       }
                     },
-                    "id": 2465,
+                    "id": 2491,
                     "nodeType": "ArrayTypeName",
                     "src": "952:11:15",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr",
                       "typeString": "struct NftItem.MintedNft[]"
                     }
                   },
@@ -18588,14 +18588,14 @@
               ],
               "src": "951:20:15"
             },
-            "scope": 2472,
+            "scope": 2498,
             "src": "911:89:15",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 2473,
+        "scope": 2499,
         "src": "248:755:15",
         "usedErrors": []
       }
@@ -18636,18 +18636,18 @@
         1069
       ],
       "NftItem": [
-        2472
+        2498
       ],
       "Strings": [
         2189
       ]
     },
-    "id": 2473,
+    "id": 2499,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2387,
+        "id": 2413,
         "literals": [
           "solidity",
           "^",
@@ -18660,10 +18660,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
         "file": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "id": 2388,
+        "id": 2414,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 2473,
+        "scope": 2499,
         "sourceUnit": 936,
         "src": "57:57:15",
         "symbolAliases": [],
@@ -18672,10 +18672,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
         "file": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
-        "id": 2389,
+        "id": 2415,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 2473,
+        "scope": 2499,
         "sourceUnit": 1536,
         "src": "115:78:15",
         "symbolAliases": [],
@@ -18684,10 +18684,10 @@
       {
         "absolutePath": "@openzeppelin/contracts/utils/Counters.sol",
         "file": "@openzeppelin/contracts/utils/Counters.sol",
-        "id": 2390,
+        "id": 2416,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 2473,
+        "scope": 2499,
         "sourceUnit": 1987,
         "src": "194:52:15",
         "symbolAliases": [],
@@ -18698,13 +18698,13 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 2391,
+              "id": 2417,
               "name": "ERC721URIStorage",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 1535,
               "src": "268:16:15"
             },
-            "id": 2392,
+            "id": 2418,
             "nodeType": "InheritanceSpecifier",
             "src": "268:16:15"
           }
@@ -18713,9 +18713,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 2472,
+        "id": 2498,
         "linearizedBaseContracts": [
-          2472,
+          2498,
           1535,
           935,
           1593,
@@ -18729,9 +18729,9 @@
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 2396,
+            "id": 2422,
             "libraryName": {
-              "id": 2393,
+              "id": 2419,
               "name": "Counters",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 1986,
@@ -18740,10 +18740,10 @@
             "nodeType": "UsingForDirective",
             "src": "289:36:15",
             "typeName": {
-              "id": 2395,
+              "id": 2421,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 2394,
+                "id": 2420,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 1918,
@@ -18759,16 +18759,16 @@
           },
           {
             "canonicalName": "NftItem.MintedNft",
-            "id": 2403,
+            "id": 2429,
             "members": [
               {
                 "constant": false,
-                "id": 2398,
+                "id": 2424,
                 "mutability": "mutable",
                 "name": "tokenId",
                 "nameLocation": "360:7:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2403,
+                "scope": 2429,
                 "src": "352:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -18777,7 +18777,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 2397,
+                  "id": 2423,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "352:7:15",
@@ -18790,12 +18790,12 @@
               },
               {
                 "constant": false,
-                "id": 2400,
+                "id": 2426,
                 "mutability": "mutable",
                 "name": "creator",
                 "nameLocation": "381:7:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2403,
+                "scope": 2429,
                 "src": "373:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -18804,7 +18804,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 2399,
+                  "id": 2425,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "373:7:15",
@@ -18818,12 +18818,12 @@
               },
               {
                 "constant": false,
-                "id": 2402,
+                "id": 2428,
                 "mutability": "mutable",
                 "name": "tokenURI",
                 "nameLocation": "401:8:15",
                 "nodeType": "VariableDeclaration",
-                "scope": 2403,
+                "scope": 2429,
                 "src": "394:15:15",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -18832,7 +18832,7 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 2401,
+                  "id": 2427,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
                   "src": "394:6:15",
@@ -18847,48 +18847,48 @@
             "name": "MintedNft",
             "nameLocation": "336:9:15",
             "nodeType": "StructDefinition",
-            "scope": 2472,
+            "scope": 2498,
             "src": "329:85:15",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 2407,
+            "id": 2433,
             "mutability": "mutable",
             "name": "mintedNfts",
             "nameLocation": "438:10:15",
             "nodeType": "VariableDeclaration",
-            "scope": 2472,
+            "scope": 2498,
             "src": "418:30:15",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage",
               "typeString": "struct NftItem.MintedNft[]"
             },
             "typeName": {
               "baseType": {
-                "id": 2405,
+                "id": 2431,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 2404,
+                  "id": 2430,
                   "name": "MintedNft",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 2403,
+                  "referencedDeclaration": 2429,
                   "src": "418:9:15"
                 },
-                "referencedDeclaration": 2403,
+                "referencedDeclaration": 2429,
                 "src": "418:9:15",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_MintedNft_$2403_storage_ptr",
+                  "typeIdentifier": "t_struct$_MintedNft_$2429_storage_ptr",
                   "typeString": "struct NftItem.MintedNft"
                 }
               },
-              "id": 2406,
+              "id": 2432,
               "nodeType": "ArrayTypeName",
               "src": "418:11:15",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr",
                 "typeString": "struct NftItem.MintedNft[]"
               }
             },
@@ -18896,12 +18896,12 @@
           },
           {
             "constant": false,
-            "id": 2410,
+            "id": 2436,
             "mutability": "mutable",
             "name": "_tokenIds",
             "nameLocation": "477:9:15",
             "nodeType": "VariableDeclaration",
-            "scope": 2472,
+            "scope": 2498,
             "src": "452:34:15",
             "stateVariable": true,
             "storageLocation": "default",
@@ -18910,10 +18910,10 @@
               "typeString": "struct Counters.Counter"
             },
             "typeName": {
-              "id": 2409,
+              "id": 2435,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 2408,
+                "id": 2434,
                 "name": "Counters.Counter",
                 "nodeType": "IdentifierPath",
                 "referencedDeclaration": 1918,
@@ -18930,12 +18930,12 @@
           },
           {
             "body": {
-              "id": 2417,
+              "id": 2443,
               "nodeType": "Block",
               "src": "530:2:15",
               "statements": []
             },
-            "id": 2418,
+            "id": 2444,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [
@@ -18943,7 +18943,7 @@
                 "arguments": [
                   {
                     "hexValue": "4e66744974656d",
-                    "id": 2413,
+                    "id": 2439,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -18959,7 +18959,7 @@
                   },
                   {
                     "hexValue": "4e4654",
-                    "id": 2414,
+                    "id": 2440,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -18974,10 +18974,10 @@
                     "value": "NFT"
                   }
                 ],
-                "id": 2415,
+                "id": 2441,
                 "kind": "baseConstructorSpecifier",
                 "modifierName": {
-                  "id": 2412,
+                  "id": 2438,
                   "name": "ERC721",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 935,
@@ -18991,18 +18991,18 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2411,
+              "id": 2437,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "502:2:15"
             },
             "returnParameters": {
-              "id": 2416,
+              "id": 2442,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "530:0:15"
             },
-            "scope": 2472,
+            "scope": 2498,
             "src": "491:41:15",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -19010,7 +19010,7 @@
           },
           {
             "body": {
-              "id": 2460,
+              "id": 2486,
               "nodeType": "Block",
               "src": "622:285:15",
               "statements": [
@@ -19020,18 +19020,18 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 2427,
+                        "id": 2453,
                         "name": "_tokenIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2410,
+                        "referencedDeclaration": 2436,
                         "src": "628:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Counter_$1918_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
-                      "id": 2429,
+                      "id": 2455,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -19045,7 +19045,7 @@
                         "typeString": "function (struct Counters.Counter storage pointer)"
                       }
                     },
-                    "id": 2430,
+                    "id": 2456,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -19060,23 +19060,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2431,
+                  "id": 2457,
                   "nodeType": "ExpressionStatement",
                   "src": "628:21:15"
                 },
                 {
                   "assignments": [
-                    2433
+                    2459
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 2433,
+                      "id": 2459,
                       "mutability": "mutable",
                       "name": "newItemId",
                       "nameLocation": "663:9:15",
                       "nodeType": "VariableDeclaration",
-                      "scope": 2460,
+                      "scope": 2486,
                       "src": "655:17:15",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -19085,7 +19085,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 2432,
+                        "id": 2458,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "655:7:15",
@@ -19097,24 +19097,24 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 2437,
+                  "id": 2463,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 2434,
+                        "id": 2460,
                         "name": "_tokenIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2410,
+                        "referencedDeclaration": 2436,
                         "src": "675:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Counter_$1918_storage",
                           "typeString": "struct Counters.Counter storage ref"
                         }
                       },
-                      "id": 2435,
+                      "id": 2461,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
@@ -19128,7 +19128,7 @@
                         "typeString": "function (struct Counters.Counter storage pointer) view returns (uint256)"
                       }
                     },
-                    "id": 2436,
+                    "id": 2462,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -19150,11 +19150,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2439,
+                        "id": 2465,
                         "name": "creator",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2420,
+                        "referencedDeclaration": 2446,
                         "src": "706:7:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -19162,11 +19162,11 @@
                         }
                       },
                       {
-                        "id": 2440,
+                        "id": 2466,
                         "name": "newItemId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2433,
+                        "referencedDeclaration": 2459,
                         "src": "715:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -19185,7 +19185,7 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 2438,
+                      "id": 2464,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -19196,7 +19196,7 @@
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 2441,
+                    "id": 2467,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -19211,7 +19211,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2442,
+                  "id": 2468,
                   "nodeType": "ExpressionStatement",
                   "src": "700:25:15"
                 },
@@ -19219,11 +19219,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 2444,
+                        "id": 2470,
                         "name": "newItemId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2433,
+                        "referencedDeclaration": 2459,
                         "src": "744:9:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -19231,11 +19231,11 @@
                         }
                       },
                       {
-                        "id": 2445,
+                        "id": 2471,
                         "name": "tokenURI",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2422,
+                        "referencedDeclaration": 2448,
                         "src": "755:8:15",
                         "typeDescriptions": {
                           "typeIdentifier": "t_string_memory_ptr",
@@ -19254,7 +19254,7 @@
                           "typeString": "string memory"
                         }
                       ],
-                      "id": 2443,
+                      "id": 2469,
                       "name": "_setTokenURI",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -19265,7 +19265,7 @@
                         "typeString": "function (uint256,string memory)"
                       }
                     },
-                    "id": 2446,
+                    "id": 2472,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -19280,7 +19280,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2447,
+                  "id": 2473,
                   "nodeType": "ExpressionStatement",
                   "src": "731:33:15"
                 },
@@ -19290,11 +19290,11 @@
                       {
                         "arguments": [
                           {
-                            "id": 2452,
+                            "id": 2478,
                             "name": "newItemId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2433,
+                            "referencedDeclaration": 2459,
                             "src": "813:9:15",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -19302,11 +19302,11 @@
                             }
                           },
                           {
-                            "id": 2453,
+                            "id": 2479,
                             "name": "creator",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2420,
+                            "referencedDeclaration": 2446,
                             "src": "839:7:15",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -19314,11 +19314,11 @@
                             }
                           },
                           {
-                            "id": 2454,
+                            "id": 2480,
                             "name": "tokenURI",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2422,
+                            "referencedDeclaration": 2448,
                             "src": "864:8:15",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
@@ -19341,18 +19341,18 @@
                               "typeString": "string memory"
                             }
                           ],
-                          "id": 2451,
+                          "id": 2477,
                           "name": "MintedNft",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2403,
+                          "referencedDeclaration": 2429,
                           "src": "786:9:15",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_struct$_MintedNft_$2403_storage_ptr_$",
+                            "typeIdentifier": "t_type$_t_struct$_MintedNft_$2429_storage_ptr_$",
                             "typeString": "type(struct NftItem.MintedNft storage pointer)"
                           }
                         },
-                        "id": 2455,
+                        "id": 2481,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -19367,7 +19367,7 @@
                         "src": "786:93:15",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_MintedNft_$2403_memory_ptr",
+                          "typeIdentifier": "t_struct$_MintedNft_$2429_memory_ptr",
                           "typeString": "struct NftItem.MintedNft memory"
                         }
                       }
@@ -19375,23 +19375,23 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_MintedNft_$2403_memory_ptr",
+                          "typeIdentifier": "t_struct$_MintedNft_$2429_memory_ptr",
                           "typeString": "struct NftItem.MintedNft memory"
                         }
                       ],
                       "expression": {
-                        "id": 2448,
+                        "id": 2474,
                         "name": "mintedNfts",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2407,
+                        "referencedDeclaration": 2433,
                         "src": "770:10:15",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage",
                           "typeString": "struct NftItem.MintedNft storage ref[] storage ref"
                         }
                       },
-                      "id": 2450,
+                      "id": 2476,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -19400,11 +19400,11 @@
                       "nodeType": "MemberAccess",
                       "src": "770:15:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr_$_t_struct$_MintedNft_$2403_storage_$returns$__$bound_to$_t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr_$_t_struct$_MintedNft_$2429_storage_$returns$__$bound_to$_t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct NftItem.MintedNft storage ref[] storage pointer,struct NftItem.MintedNft storage ref)"
                       }
                     },
-                    "id": 2456,
+                    "id": 2482,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -19419,32 +19419,32 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 2457,
+                  "id": 2483,
                   "nodeType": "ExpressionStatement",
                   "src": "770:110:15"
                 },
                 {
                   "expression": {
-                    "id": 2458,
+                    "id": 2484,
                     "name": "newItemId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2433,
+                    "referencedDeclaration": 2459,
                     "src": "893:9:15",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "functionReturnParameters": 2426,
-                  "id": 2459,
+                  "functionReturnParameters": 2452,
+                  "id": 2485,
                   "nodeType": "Return",
                   "src": "886:16:15"
                 }
               ]
             },
             "functionSelector": "26fb76c2",
-            "id": 2461,
+            "id": 2487,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -19452,17 +19452,17 @@
             "nameLocation": "545:10:15",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2423,
+              "id": 2449,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2420,
+                  "id": 2446,
                   "mutability": "mutable",
                   "name": "creator",
                   "nameLocation": "564:7:15",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2461,
+                  "scope": 2487,
                   "src": "556:15:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -19471,7 +19471,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2419,
+                    "id": 2445,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "556:7:15",
@@ -19485,12 +19485,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 2422,
+                  "id": 2448,
                   "mutability": "mutable",
                   "name": "tokenURI",
                   "nameLocation": "587:8:15",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2461,
+                  "scope": 2487,
                   "src": "573:22:15",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -19499,7 +19499,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2421,
+                    "id": 2447,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "573:6:15",
@@ -19514,17 +19514,17 @@
               "src": "555:41:15"
             },
             "returnParameters": {
-              "id": 2426,
+              "id": 2452,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2425,
+                  "id": 2451,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2461,
+                  "scope": 2487,
                   "src": "613:7:15",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -19533,7 +19533,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2424,
+                    "id": 2450,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "613:7:15",
@@ -19547,7 +19547,7 @@
               ],
               "src": "612:9:15"
             },
-            "scope": 2472,
+            "scope": 2498,
             "src": "536:371:15",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -19555,32 +19555,32 @@
           },
           {
             "body": {
-              "id": 2470,
+              "id": 2496,
               "nodeType": "Block",
               "src": "972:28:15",
               "statements": [
                 {
                   "expression": {
-                    "id": 2468,
+                    "id": 2494,
                     "name": "mintedNfts",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 2407,
+                    "referencedDeclaration": 2433,
                     "src": "985:10:15",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage",
+                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage",
                       "typeString": "struct NftItem.MintedNft storage ref[] storage ref"
                     }
                   },
-                  "functionReturnParameters": 2467,
-                  "id": 2469,
+                  "functionReturnParameters": 2493,
+                  "id": 2495,
                   "nodeType": "Return",
                   "src": "978:17:15"
                 }
               ]
             },
             "functionSelector": "9f309939",
-            "id": 2471,
+            "id": 2497,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -19588,53 +19588,53 @@
             "nameLocation": "920:8:15",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2462,
+              "id": 2488,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "928:2:15"
             },
             "returnParameters": {
-              "id": 2467,
+              "id": 2493,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2466,
+                  "id": 2492,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2471,
+                  "scope": 2497,
                   "src": "952:18:15",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct NftItem.MintedNft[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 2464,
+                      "id": 2490,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 2463,
+                        "id": 2489,
                         "name": "MintedNft",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 2403,
+                        "referencedDeclaration": 2429,
                         "src": "952:9:15"
                       },
-                      "referencedDeclaration": 2403,
+                      "referencedDeclaration": 2429,
                       "src": "952:9:15",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_MintedNft_$2403_storage_ptr",
+                        "typeIdentifier": "t_struct$_MintedNft_$2429_storage_ptr",
                         "typeString": "struct NftItem.MintedNft"
                       }
                     },
-                    "id": 2465,
+                    "id": 2491,
                     "nodeType": "ArrayTypeName",
                     "src": "952:11:15",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2403_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_MintedNft_$2429_storage_$dyn_storage_ptr",
                       "typeString": "struct NftItem.MintedNft[]"
                     }
                   },
@@ -19643,14 +19643,14 @@
               ],
               "src": "951:20:15"
             },
-            "scope": 2472,
+            "scope": 2498,
             "src": "911:89:15",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 2473,
+        "scope": 2499,
         "src": "248:755:15",
         "usedErrors": []
       }
@@ -19665,12 +19665,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x3B94eF70b549775aAb395fE566c8783DCdcfe37C",
-      "transactionHash": "0xcdfbb13a6a67e8f33f82dfd977195b29e7b85d88b792e319af032861c9a784c0"
+      "address": "0x880cD07d84D05C54AFB3373d7aED8Be2D33D5D1A",
+      "transactionHash": "0x486246660f4435f26923fb53ae394265d16e2251f59f8df7c5b4bdcf4a38006b"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2022-02-05T16:43:13.097Z",
+  "updatedAt": "2022-02-10T01:00:52.370Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

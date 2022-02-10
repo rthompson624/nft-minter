@@ -72,8 +72,7 @@ export default function App() {
   }
 
   async function mintNft(id) {
-    const uri = `https://gateway.pinata.cloud/ipfs/QmUUmP7kQKWDmYSW8vEdZTADm8fdCdvDdx42ZCBvJe5WaL/${id}.json`;
-    await groovyDudesTokenContract.methods.mintByUser(id, accounts[0], uri).send({ from: accounts[0], value: 50000000000000000 });
+    await groovyDudesTokenContract.methods.mintByUser(id, accounts[0]).send({ from: accounts[0], value: 50000000000000000 });
     setError(null);
     await markMintedNfts(groovyDudesTokenContract);
   }

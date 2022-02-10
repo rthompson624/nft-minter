@@ -5,19 +5,23 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract GroovyDudesToken is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
   constructor() ERC721("GroovyDudesToken", "GVY") {}
 
   function mintByUser(
     uint256 tokenId,
-    address recipient,
-    string memory metadataURI
+    address recipient
   ) public payable returns (uint256) {
     require(tokenId < 1000, 'Invalid token id. Valid range is 0 to 999.');
     require(!_exists(tokenId), 'Token has already been minted.');
     require (msg.value >= 0.05 ether, 'Minimum price is 0.05 ETH');
 
+    string memory urlPrefix = 'ipfs://QmaqsKFMfofXVTxjNq9poAvFGodaXbE3zNqXkgPAYpPNoV/';
+    string memory idString = Strings.toString(tokenId);
+    string memory urlSuffix = '.json';
+    string memory metadataURI = string(abi.encodePacked(urlPrefix, idString, urlSuffix));
     _mint(recipient, tokenId);
     _setTokenURI(tokenId, metadataURI);
 
