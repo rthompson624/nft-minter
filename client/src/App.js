@@ -15,6 +15,7 @@ export default function App() {
   const [web3, setWeb3] = React.useState(null);
   const [accounts, setAccounts] = React.useState(null);
   const [groovyDudesTokenContract, setGroovyDudesTokenContract] = React.useState(null);
+  const [searchText, setSearchText] = React.useState(null);
 
   // Application load event
   React.useEffect(() => {
@@ -95,6 +96,14 @@ export default function App() {
     });
   }
 
+  React.useEffect(() => {
+    if (searchText) {
+      console.log(`App: Let's search for ${searchText}`);
+    } else {
+      console.log(`App: Let's clear the search`);
+    }
+  }, [searchText]);
+
   return (
     <div>
       <LoadingIndicator loading={ loading } />
@@ -103,7 +112,7 @@ export default function App() {
       <div className="flex flex-col sm:flex-row">
         <Filter />
         <div className="border-l-2 w-full p-4">
-          <SearchSort />
+          <SearchSort setSearchText={ setSearchText } />
           <List nftRecords={ nftRecords } onMint={ (id) => mintNft(id) } />
         </div>
       </div>
