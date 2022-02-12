@@ -16,7 +16,7 @@ contract GroovyDudesToken is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable
     uint256 tokenId,
     address recipient
   ) public payable returns (uint256) {
-    require(tokenId < 1000, 'Invalid token id. Valid range is 0 to 999.');
+    require(tokenId <= 200, 'Invalid token id. Valid range is 1 to 200.');
     require(!_exists(tokenId), 'Token has already been minted.');
     require (msg.value >= 0.05 ether, 'Minimum price is 0.05 ETH');
 
