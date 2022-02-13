@@ -5,17 +5,20 @@ import LoadingIndicator from "./components/LoadingIndicator";
 import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import Filter from "./components/Filter";
-import SearchSort from "./components/SearchSort";
+import Search from "./components/Search";
 import List from "./components/List";
+import { initialFilter } from "./utils";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [nftRecords, setNftRecords] = React.useState([]);
+  const [viewableNftRecords, setViewableNftRecords] = React.useState([]);
   const [web3, setWeb3] = React.useState(null);
   const [accounts, setAccounts] = React.useState(null);
   const [groovyDudesTokenContract, setGroovyDudesTokenContract] = React.useState(null);
   const [searchText, setSearchText] = React.useState(null);
+  const [filter, setFilter] = React.useState(initialFilter);
 
   // Application load event
   React.useEffect(() => {
@@ -64,6 +67,7 @@ export default function App() {
     if (response.ok) {
       const records = await response.json();
       setNftRecords(records);
+      setViewableNftRecords(records);
       setError(null);
     } else {
       const errorMessage = `Error fetching NFT records. Status: ${response.status}. ${response.statusText}`;
@@ -94,15 +98,46 @@ export default function App() {
         }
       });
     });
+    setViewableNftRecords(prevRecords => {
+      return prevRecords.map(record => {
+        if (mintedIds.includes(record.id)) {
+          return { ...record, minted: true };
+        } else {
+          return record;
+        }
+      });
+    });
   }
 
   React.useEffect(() => {
+    determineViewableRecords();
+  }, [filter, searchText]);
+
+  function determineViewableRecords() {
+    // Determine filtered records
+    let viewableRecords = JSON.parse(JSON.stringify(nftRecords));
+    filter.forEach(category => {
+      const selectedOptions = category.options.reduce((accum, option) => {
+        return option.selected ? [...accum, option.name] : accum;
+      }, []);
+      if (selectedOptions.length > 0) {
+        viewableRecords = viewableRecords.filter(nft => {
+          const trait = nft.attributes.find(iter => iter.trait_type === category.name);
+          return selectedOptions.includes(trait.value);
+        }); 
+      }
+    });
+    // Apply search to filtered records
     if (searchText) {
-      console.log(`App: Let's search for ${searchText}`);
-    } else {
-      console.log(`App: Let's clear the search`);
+      const searchWords = searchText.split(' ').map(iter => iter.toLowerCase());
+      viewableRecords = viewableRecords.filter(nft => {
+        const nameWords = nft.name.split(' ').map(iter => iter.toLowerCase());
+        const match = nameWords.find(iter => searchWords.includes(iter));
+        return match ? true : false;
+      });
     }
-  }, [searchText]);
+    setViewableNftRecords(viewableRecords);
+  }
 
   return (
     <div>
@@ -110,10 +145,10 @@ export default function App() {
       <Navbar />
       <Summary />
       <div className="flex flex-col sm:flex-row">
-        <Filter />
+        <Filter filter={ filter } setFilter={ setFilter } />
         <div className="border-l-2 w-full p-4">
-          <SearchSort setSearchText={ setSearchText } />
-          <List nftRecords={ nftRecords } onMint={ (id) => mintNft(id) } />
+          <Search setSearchText={ setSearchText } />
+          <List nftRecords={ viewableNftRecords } onMint={ (id) => mintNft(id) } />
         </div>
       </div>
     </div>
