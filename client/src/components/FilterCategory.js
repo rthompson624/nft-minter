@@ -30,7 +30,7 @@ export default function FilterCategory({ category, setFilter }) {
   }
 
   return (
-    <div className="border-b-2 pb-3">
+    <div className="border-b-2 pb-3 font-mono">
       <div className="text-lg font-bold px-3 pt-3 pb-1">{ category.name }</div>
       <div className="px-3">
         {

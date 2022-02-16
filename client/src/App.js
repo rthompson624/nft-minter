@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import Filter from "./components/Filter";
 import Search from "./components/Search";
-import List from "./components/List";
+import ListNfts from "./components/ListNfts";
 import { initialFilter } from "./utils";
 
 export default function App() {
@@ -148,7 +148,7 @@ export default function App() {
         <Filter filter={ filter } setFilter={ setFilter } />
         <div className="border-l-2 w-full p-4">
           <Search setSearchText={ setSearchText } />
-          <List nftRecords={ viewableNftRecords } onMint={ (id) => mintNft(id) } />
+          <ListNfts nftRecords={ viewableNftRecords } onMint={ (id) => mintNft(id) } />
         </div>
       </div>
     </div>
