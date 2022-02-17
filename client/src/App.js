@@ -2,7 +2,6 @@ import React from "react";
 import GroovyDudesToken from "./contracts/GroovyDudesToken.json";
 import getWeb3 from "./getWeb3";
 import LoadingIndicator from "./components/LoadingIndicator";
-import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import Filter from "./components/Filter";
 import Search from "./components/Search";
@@ -142,7 +141,6 @@ export default function App() {
   return (
     <div>
       <LoadingIndicator loading={ loading } />
-      <Navbar />
       <Summary />
       <div className="flex flex-col sm:flex-row">
         <Filter filter={ filter } setFilter={ setFilter } />

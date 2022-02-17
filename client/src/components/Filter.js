@@ -1,9 +1,11 @@
 import React from "react";
 import FilterCategory from "./FilterCategory";
+import FilterOwnership from "./FilterOwnership";
 
 export default function Filter({ filter, setFilter }) {
   return (
-    <div className="sm:w-60 shrink-0">
+    <div className="sm:w-80 shrink-0">
+      <FilterOwnership />
       <div className="accordion" id="accordionExample">
         {
           filter.map(category => {
