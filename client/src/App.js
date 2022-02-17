@@ -14,7 +14,6 @@ export default function App() {
   const [error, setError] = React.useState(null);
   const [nftRecords, setNftRecords] = React.useState([]);
   const [viewableNftRecords, setViewableNftRecords] = React.useState([]);
-  const [web3, setWeb3] = React.useState(null);
   const [accounts, setAccounts] = React.useState(null);
   const [groovyDudesTokenContract, setGroovyDudesTokenContract] = React.useState(null);
   const [searchText, setSearchText] = React.useState(null);
@@ -23,6 +22,7 @@ export default function App() {
   // Application load event
   React.useEffect(() => {
     initializeApp();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function initializeApp() {
@@ -49,7 +49,6 @@ export default function App() {
       );
 
       // Set state variables
-      setWeb3(web3Local);
       setGroovyDudesTokenContract(groovyDudesTokenContractInstance);
       setAccounts(accountsLocal);
       setError(null);
@@ -111,7 +110,14 @@ export default function App() {
 
   React.useEffect(() => {
     determineViewableRecords();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filter, searchText]);
+
+  React.useEffect(() => {
+    if (error) {
+      console.log(error);
+    }
+  }, [error]);
 
   function determineViewableRecords() {
     // Determine filtered records
@@ -125,6 +131,9 @@ export default function App() {
         break;
       case 'available':
         viewableRecords = viewableRecords.filter(nft => !nft.minted);
+        break;
+      default:
+        console.log(`Invalid ownership value: ${filter.ownership}`);
         break;
     }
     filter.categories.forEach(category => {
