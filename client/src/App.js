@@ -115,7 +115,7 @@ export default function App() {
   function determineViewableRecords() {
     // Determine filtered records
     let viewableRecords = JSON.parse(JSON.stringify(nftRecords));
-    filter.forEach(category => {
+    filter.categories.forEach(category => {
       const selectedOptions = category.options.reduce((accum, option) => {
         return option.selected ? [...accum, option.name] : accum;
       }, []);

@@ -3,25 +3,27 @@ import React from "react";
 export default function FilterCategory({ category, setFilter }) {
   function handleCheckboxChange(event) {
     setFilter(prevFilter => {
-      return prevFilter.map(categoryIter => {
-        if (categoryIter.name === category.name) {
-          return {
-            ...categoryIter,
-            options: categoryIter.options.map(optionIter => {
-              if (optionIter.name === event.target.value) {
-                return {
-                  ...optionIter,
-                  selected: !optionIter.selected
-                };
-              } else {
-                return optionIter;
-              }
-            })
-          };
-        } else {
-          return categoryIter;
-        }
-      });
+      return { ...prevFilter,
+        categories: prevFilter.categories.map(categoryIter => {
+          if (categoryIter.name === category.name) {
+            return {
+              ...categoryIter,
+              options: categoryIter.options.map(optionIter => {
+                if (optionIter.name === event.target.value) {
+                  return {
+                    ...optionIter,
+                    selected: !optionIter.selected
+                  };
+                } else {
+                  return optionIter;
+                }
+              })
+            };
+          } else {
+            return categoryIter;
+          }
+        })
+      };
     });
   }
 

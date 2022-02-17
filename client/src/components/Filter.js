@@ -8,7 +8,7 @@ export default function Filter({ filter, setFilter }) {
       <FilterOwnership />
       <div className="accordion" id="accordionExample">
         {
-          filter.map(category => {
+          filter.categories.map(category => {
             return (
               <FilterCategory key={ category.name } category={ category } setFilter={ setFilter } />
             )
