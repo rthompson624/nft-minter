@@ -3,6 +3,7 @@ export function delay(ms) {
 }
 
 export const initialFilter = {
+  ownership: 'all',
   categories: [
     { name: 'Background', options: [
       { name: 'Cherry Red', selected: false },

@@ -115,6 +115,17 @@ export default function App() {
   function determineViewableRecords() {
     // Determine filtered records
     let viewableRecords = JSON.parse(JSON.stringify(nftRecords));
+    switch (filter.ownership) {
+      case 'all':
+        // Nothing to do
+        break;
+      case 'minted':
+        viewableRecords = viewableRecords.filter(nft => nft.minted);
+        break;
+      case 'available':
+        viewableRecords = viewableRecords.filter(nft => !nft.minted);
+        break;
+    }
     filter.categories.forEach(category => {
       const selectedOptions = category.options.reduce((accum, option) => {
         return option.selected ? [...accum, option.name] : accum;
