@@ -4,7 +4,7 @@ import getWeb3 from "./getWeb3";
 import LoadingIndicator from "./components/LoadingIndicator";
 import Summary from "./components/Summary";
 import Filter from "./components/Filter";
-import Search from "./components/Search";
+import SearchEntry from "./components/SearchEntry";
 import ListNfts from "./components/ListNfts";
 import { initialFilter } from "./utils";
 
@@ -139,11 +139,9 @@ export default function App() {
     });
     // Apply search to filtered records
     if (searchText) {
-      const searchWords = searchText.split(' ').map(iter => iter.toLowerCase());
       viewableRecords = viewableRecords.filter(nft => {
         const nameWords = nft.name.split(' ').map(iter => iter.toLowerCase());
-        const match = nameWords.find(iter => searchWords.includes(iter));
-        return match ? true : false;
+        return nameWords.includes(searchText);
       });
     }
     setViewableNftRecords(viewableRecords);
@@ -156,7 +154,7 @@ export default function App() {
       <div className="flex flex-col sm:flex-row">
         <Filter filter={ filter } setFilter={ setFilter } />
         <div className="border-l-2 w-full p-4">
-          <Search setSearchText={ setSearchText } />
+          <SearchEntry setSearchText={ setSearchText } />
           <ListNfts nftRecords={ viewableNftRecords } onMint={ (id) => mintNft(id) } />
         </div>
       </div>
