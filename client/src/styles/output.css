@@ -3229,6 +3229,9 @@ textarea.form-control.is-invalid {
 .ml-3 {
   margin-left: 0.75rem;
 }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
 .block {
   display: block;
 }
@@ -3332,6 +3335,9 @@ textarea.form-control.is-invalid {
 .gap-4 {
   gap: 1rem;
 }
+.whitespace-nowrap {
+  white-space: nowrap;
+}
 .rounded {
   border-radius: 0.25rem;
 }
@@ -3425,6 +3431,18 @@ textarea.form-control.is-invalid {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
 .pb-3 {
   padding-bottom: 0.75rem;
 }
@@ -3448,6 +3466,9 @@ textarea.form-control.is-invalid {
 }
 .text-right {
   text-align: right;
+}
+.align-baseline {
+  vertical-align: baseline;
 }
 .align-top {
   vertical-align: top;
@@ -3473,6 +3494,9 @@ textarea.form-control.is-invalid {
 }
 .font-bold {
   font-weight: 700;
+}
+.leading-none {
+  line-height: 1;
 }
 .text-gray-500 {
   --tw-text-opacity: 1;

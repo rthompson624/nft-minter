@@ -29,6 +29,8 @@ export default function FilterCategory({ category, setFilter }) {
     return name.replace(/\s/g, '').toLowerCase();
   }
 
+  const hasAnOptionSelected = category.options.find(iter => iter.selected) ? true : false;
+
   return (
     <div className="accordion-item bg-white border border-gray-200">
       <h2 className="accordion-header mb-0 font-mono" id={ `heading${category.name}` }>
@@ -56,6 +58,12 @@ export default function FilterCategory({ category, setFilter }) {
           aria-controls={ `collapse${category.name}` }
         >
           { category.name }
+          <span className="ml-2 mb-1">
+            {hasAnOptionSelected
+              ?<input className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" checked readOnly />
+              :''
+            }
+          </span>
         </button>
       </h2>
       <div
