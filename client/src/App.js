@@ -149,10 +149,7 @@ export default function App() {
     });
     // Apply search to filtered records
     if (searchText) {
-      viewableRecords = viewableRecords.filter(nft => {
-        const nameWords = nft.name.split(' ').map(iter => iter.toLowerCase());
-        return nameWords.includes(searchText);
-      });
+      viewableRecords = viewableRecords.filter(nft => nft.name.toLowerCase().includes(searchText));
     }
     setViewableNftRecords(viewableRecords);
   }
