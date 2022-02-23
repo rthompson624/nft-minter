@@ -2,12 +2,12 @@ import React from "react";
 import GroovyDudesToken from "./contracts/GroovyDudesToken.json";
 import getWeb3 from "./getWeb3";
 import LoadingIndicator from "./components/LoadingIndicator";
-import Summary from "./components/Summary";
 import Filter from "./components/Filter";
 import SearchEntry from "./components/SearchEntry";
 import ListNfts from "./components/ListNfts";
 import { initialFilter } from "./utils";
 import ViewableCount from "./components/ViewableCount";
+import Navbar from "./components/Navbar";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
@@ -157,7 +157,7 @@ export default function App() {
   return (
     <div>
       <LoadingIndicator loading={ loading } />
-      <Summary />
+      <Navbar />
       <div className="flex flex-col sm:flex-row">
         <Filter filter={ filter } setFilter={ setFilter } />
         <div className="border-l-2 w-full p-4">
