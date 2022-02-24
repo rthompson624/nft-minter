@@ -2,12 +2,9 @@ import React from "react";
 import GroovyDudesToken from "./contracts/GroovyDudesToken.json";
 import getWeb3 from "./getWeb3";
 import LoadingIndicator from "./components/LoadingIndicator";
-import Filter from "./components/Filter";
-import SearchEntry from "./components/SearchEntry";
-import ListNfts from "./components/ListNfts";
 import { initialFilter } from "./utils";
-import ViewableCount from "./components/ViewableCount";
 import Navbar from "./components/Navbar";
+import BrowseCollection from "./components/BrowseCollection";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
@@ -158,16 +155,13 @@ export default function App() {
     <div>
       <LoadingIndicator loading={ loading } />
       <Navbar />
-      <div className="flex flex-col sm:flex-row">
-        <Filter filter={ filter } setFilter={ setFilter } />
-        <div className="border-l-2 w-full p-4">
-          <div className="flex flex-row justify-between">
-            <SearchEntry setSearchText={ setSearchText } />
-            <ViewableCount nftRecords={ viewableNftRecords } />
-          </div>
-          <ListNfts nftRecords={ viewableNftRecords } onMint={ (id) => mintNft(id) } />
-        </div>
-      </div>
+      <BrowseCollection
+        filter= { filter }
+        setFilter={ setFilter }
+        setSearchText = { setSearchText }
+        viewableNftRecords = { viewableNftRecords }
+        onMint = { (id) => mintNft(id) }
+      />
     </div>
   );
 }
