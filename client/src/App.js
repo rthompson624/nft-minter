@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import GroovyDudesToken from "./contracts/GroovyDudesToken.json";
 import getWeb3 from "./getWeb3";
 import LoadingIndicator from "./components/LoadingIndicator";
@@ -152,16 +153,20 @@ export default function App() {
   }
 
   return (
-    <div>
+    <Router>
       <LoadingIndicator loading={ loading } />
       <Navbar />
-      <BrowseCollection
-        filter= { filter }
-        setFilter={ setFilter }
-        setSearchText = { setSearchText }
-        viewableNftRecords = { viewableNftRecords }
-        onMint = { (id) => mintNft(id) }
-      />
-    </div>
+        <Routes>
+          <Route exact path="/" element={
+            <BrowseCollection
+              filter={ filter }
+              setFilter={ setFilter }
+              setSearchText={ setSearchText }
+              viewableNftRecords={ viewableNftRecords }
+              onMint={ (id) => mintNft(id) }
+            />
+          } />
+        </Routes>
+    </Router>
   );
 }
