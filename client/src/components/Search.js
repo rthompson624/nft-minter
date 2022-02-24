@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SearchEntry({ setSearchText }) {
+export default function Search({ setSearchText }) {
   function handleKeyUp(event) {
     if (event.key === "Enter" && event.target.value) {
       // Initiate search

@@ -5,7 +5,7 @@ import getWeb3 from "./getWeb3";
 import LoadingIndicator from "./components/LoadingIndicator";
 import { initialFilter } from "./utils";
 import Navbar from "./components/Navbar";
-import BrowseCollection from "./components/BrowseCollection";
+import CollectionBrowser from "./components/CollectionBrowser";
 import NotFound from "./components/NotFound";
 
 export default function App() {
@@ -159,7 +159,7 @@ export default function App() {
       <Navbar />
         <Routes>
           <Route exact path="/" element={
-            <BrowseCollection
+            <CollectionBrowser
               filter={ filter }
               setFilter={ setFilter }
               setSearchText={ setSearchText }
