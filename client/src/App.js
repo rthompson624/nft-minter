@@ -6,6 +6,7 @@ import LoadingIndicator from "./components/LoadingIndicator";
 import { initialFilter } from "./utils";
 import Navbar from "./components/Navbar";
 import BrowseCollection from "./components/BrowseCollection";
+import NotFound from "./components/NotFound";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
@@ -165,6 +166,9 @@ export default function App() {
               viewableNftRecords={ viewableNftRecords }
               onMint={ (id) => mintNft(id) }
             />
+          } />
+          <Route path="*" element={
+            <NotFound />
           } />
         </Routes>
     </Router>
