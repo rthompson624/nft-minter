@@ -3226,6 +3226,9 @@ textarea.form-control.is-invalid {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .block {
   display: block;
 }
@@ -3264,6 +3267,19 @@ textarea.form-control.is-invalid {
 }
 .w-48 {
   width: 12rem;
+}
+.w-64 {
+  width: 16rem;
+}
+.w-80 {
+  width: 20rem;
+}
+.min-w-max {
+  min-width: -webkit-max-content;
+  min-width: max-content;
+}
+.max-w-xs {
+  max-width: 20rem;
 }
 .shrink-0 {
   flex-shrink: 0;
@@ -3319,6 +3335,9 @@ textarea.form-control.is-invalid {
 }
 .justify-evenly {
   justify-content: space-evenly;
+}
+.justify-items-center {
+  justify-items: center;
 }
 .gap-4 {
   gap: 1rem;

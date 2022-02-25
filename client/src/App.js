@@ -7,6 +7,7 @@ import { initialFilter } from "./utils";
 import Navbar from "./components/Navbar";
 import CollectionBrowser from "./components/CollectionBrowser";
 import NotFound from "./components/NotFound";
+import NftViewer from "./components/NftViewer";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
@@ -167,9 +168,13 @@ export default function App() {
               onMint={ (id) => mintNft(id) }
             />
           } />
-          <Route path="*" element={
-            <NotFound />
+          <Route exact path="/nft/:id" element={
+            <NftViewer
+              nftRecords={ nftRecords }
+              onMint={ (id) => mintNft(id) }
+            />
           } />
+          <Route path="*" element={ <NotFound /> } />
         </Routes>
     </Router>
   );
