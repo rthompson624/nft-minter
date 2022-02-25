@@ -83,29 +83,27 @@ export default function App() {
 
   async function markMintedNfts(contract) {
     const mintedIds = [];
+    const tokenOwnerMap = {};
     const count = await contract.methods.totalSupply().call();
     for (let i = 0; i < count; i++) {
       const tokenId = await contract.methods.tokenByIndex(i).call();
+      const ownerAddress = await contract.methods.ownerOf(tokenId).call();
+      tokenOwnerMap[tokenId.toString()] = ownerAddress;
       mintedIds.push(parseInt(tokenId), 10);
     }
     setNftRecords(prevRecords => {
-      return prevRecords.map(record => {
-        if (mintedIds.includes(record.id)) {
-          return { ...record, minted: true };
-        } else {
-          return record;
-        }
-      });
+      return prevRecords.map(record => setOwnershipFields(record, mintedIds, tokenOwnerMap));
     });
     setViewableNftRecords(prevRecords => {
-      return prevRecords.map(record => {
-        if (mintedIds.includes(record.id)) {
-          return { ...record, minted: true };
-        } else {
-          return record;
-        }
-      });
+      return prevRecords.map(record => setOwnershipFields(record, mintedIds, tokenOwnerMap));
     });
+  }
+
+  function setOwnershipFields(record, mintedIds, tokenOwnerMap) {
+    const updatedRecord = { ...record };
+    updatedRecord.minted = mintedIds.includes(record.id);
+    updatedRecord.owner = updatedRecord.minted ? tokenOwnerMap[record.id.toString()] : null;
+    return updatedRecord;
   }
 
   React.useEffect(() => {
@@ -129,8 +127,8 @@ export default function App() {
       case 'minted':
         viewableRecords = viewableRecords.filter(nft => nft.minted);
         break;
-      case 'available':
-        viewableRecords = viewableRecords.filter(nft => !nft.minted);
+      case 'user':
+        viewableRecords = viewableRecords.filter(nft => nft.owner === accounts[0]);
         break;
       default:
         console.log(`Invalid ownership value: ${filter.ownership}`);
