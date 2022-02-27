@@ -8,16 +8,19 @@ import Navbar from "./components/Navbar";
 import CollectionBrowser from "./components/CollectionBrowser";
 import NotFound from "./components/NotFound";
 import NftViewer from "./components/NftViewer";
+import Admin from "./components/Admin";
+import AdminGaurd from "./components/AdminGuard";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
   const [nftRecords, setNftRecords] = React.useState([]);
   const [viewableNftRecords, setViewableNftRecords] = React.useState([]);
-  const [accounts, setAccounts] = React.useState(null);
+  const [account, setAccount] = React.useState(null);
   const [groovyDudesTokenContract, setGroovyDudesTokenContract] = React.useState(null);
   const [searchText, setSearchText] = React.useState(null);
   const [filter, setFilter] = React.useState(initialFilter);
+  const [isOwner, setIsOwner] = React.useState(false);
 
   // Application load event
   React.useEffect(() => {
@@ -39,6 +42,7 @@ export default function App() {
 
       // Use web3 to get the user's accounts.
       const accountsLocal = await web3Local.eth.getAccounts();
+      const accountLocal = accountsLocal ? accountsLocal[0] : null;
 
       // Get the contract instance.
       const networkId = await web3Local.eth.net.getId();
@@ -49,8 +53,10 @@ export default function App() {
       );
 
       // Set state variables
+      const owner = await groovyDudesTokenContractInstance.methods.owner().call();
+      setIsOwner(accountLocal === owner);
       setGroovyDudesTokenContract(groovyDudesTokenContractInstance);
-      setAccounts(accountsLocal);
+      setAccount(accountLocal);
       setError(null);
       markMintedNfts(groovyDudesTokenContractInstance);
     } catch (error) {
@@ -76,7 +82,7 @@ export default function App() {
   }
 
   async function mintNft(id) {
-    await groovyDudesTokenContract.methods.mintByUser(id, accounts[0]).send({ from: accounts[0], value: 50000000000000000 });
+    await groovyDudesTokenContract.methods.mintByUser(id, account).send({ from: account, value: 50000000000000000 });
     setError(null);
     await markMintedNfts(groovyDudesTokenContract);
   }
@@ -128,7 +134,7 @@ export default function App() {
         viewableRecords = viewableRecords.filter(nft => nft.minted);
         break;
       case 'user':
-        viewableRecords = viewableRecords.filter(nft => nft.owner === accounts[0]);
+        viewableRecords = viewableRecords.filter(nft => nft.owner === account);
         break;
       default:
         console.log(`Invalid ownership value: ${filter.ownership}`);
@@ -155,7 +161,7 @@ export default function App() {
   return (
     <Router>
       <LoadingIndicator loading={ loading } />
-      <Navbar />
+      <Navbar isOwner={ isOwner } />
         <Routes>
           <Route exact path="/" element={
             <CollectionBrowser
@@ -171,6 +177,14 @@ export default function App() {
               nftRecords={ nftRecords }
               onMint={ (id) => mintNft(id) }
             />
+          } />
+          <Route exact path="/admin" element={
+            <AdminGaurd isOwner={ isOwner }>
+              <Admin
+                groovyDudesTokenContract={ groovyDudesTokenContract }
+                account={ account }
+              />
+            </AdminGaurd>
           } />
           <Route path="*" element={ <NotFound /> } />
         </Routes>

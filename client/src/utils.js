@@ -2,6 +2,10 @@ export function delay(ms) {
   return new Promise(res => setTimeout(res, ms));
 }
 
+export function weiToEth(wei) {
+  return parseFloat(wei) / 1e18;
+}
+
 export const initialFilter = {
   ownership: 'all',
   categories: [
