@@ -1,7 +1,7 @@
 import React from "react";
 import { weiToEth } from "../utils";
 
-export default function Admin({ groovyDudesTokenContract, account }) {
+export default function Admin({ groovyDudesTokenContract, account, setToastMessage }) {
   const [balance, setBalance] = React.useState(0);
 
   // Component load event
@@ -18,10 +18,14 @@ export default function Admin({ groovyDudesTokenContract, account }) {
   async function payoutToContractOwner() {
     await groovyDudesTokenContract.methods.payoutToContractOwner().send({ from: account });
     getContractBalance();
+    setToastMessage({
+      type: 'success',
+      message: 'Payout executed successfully.'
+    });
   }
 
   return (
-    <div className="flex justify-center mt-5">
+    <div className="flex justify-center mt-5 h-96 items-start">
       <div className="flex items-end">
         <div className="mb-3 w-48">
           <label htmlFor="exampleFormControlInput5" className="form-label inline-block mb-2 text-gray-700 font-mono font-bold">

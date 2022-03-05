@@ -10,6 +10,7 @@ import NotFound from "./components/NotFound";
 import NftViewer from "./components/NftViewer";
 import Admin from "./components/Admin";
 import AdminGaurd from "./components/AdminGuard";
+import Toast from "./components/Toast";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
@@ -21,6 +22,7 @@ export default function App() {
   const [searchText, setSearchText] = React.useState(null);
   const [filter, setFilter] = React.useState(initialFilter);
   const [isOwner, setIsOwner] = React.useState(false);
+  const [toastMessage, setToastMessage] = React.useState({ type: null, message: null });
 
   // Application load event
   React.useEffect(() => {
@@ -61,9 +63,8 @@ export default function App() {
       markMintedNfts(groovyDudesTokenContractInstance);
     } catch (error) {
       // Catch any errors for any of the above operations.
-      alert(`Failed to load web3, accounts, or contract. Check console for details.`);
       console.error(error);
-      setError(error);
+      setError('Failed to load web3, accounts, or contract. Check console for details.');
     }  
   }
 
@@ -76,7 +77,6 @@ export default function App() {
       setError(null);
     } else {
       const errorMessage = `Error fetching NFT records. Status: ${response.status}. ${response.statusText}`;
-      console.error(errorMessage);
       setError(errorMessage);
     }
   }
@@ -85,6 +85,8 @@ export default function App() {
     await groovyDudesTokenContract.methods.mintByUser(id, account).send({ from: account, value: 50000000000000000 });
     setError(null);
     await markMintedNfts(groovyDudesTokenContract);
+    const nft = nftRecords.find(iter => iter.id === id);
+    setToastMessage({ type: 'success', message: `${nft.name} is now yours!`});
   }
 
   async function markMintedNfts(contract) {
@@ -119,7 +121,7 @@ export default function App() {
 
   React.useEffect(() => {
     if (error) {
-      console.log(error);
+      setToastMessage({ type: 'error', message: error });
     }
   }, [error]);
 
@@ -162,32 +164,37 @@ export default function App() {
     <Router>
       <LoadingIndicator loading={ loading } />
       <Navbar isOwner={ isOwner } />
-        <Routes>
-          <Route exact path="/" element={
-            <CollectionBrowser
-              filter={ filter }
-              setFilter={ setFilter }
-              setSearchText={ setSearchText }
-              viewableNftRecords={ viewableNftRecords }
-              onMint={ (id) => mintNft(id) }
+      <Routes>
+        <Route exact path="/" element={
+          <CollectionBrowser
+            filter={ filter }
+            setFilter={ setFilter }
+            setSearchText={ setSearchText }
+            viewableNftRecords={ viewableNftRecords }
+            onMint={ (id) => mintNft(id) }
+          />
+        } />
+        <Route exact path="/nft/:id" element={
+          <NftViewer
+            nftRecords={ nftRecords }
+            onMint={ (id) => mintNft(id) }
+          />
+        } />
+        <Route exact path="/admin" element={
+          <AdminGaurd isOwner={ isOwner }>
+            <Admin
+              groovyDudesTokenContract={ groovyDudesTokenContract }
+              account={ account }
+              setToastMessage={ setToastMessage }
             />
-          } />
-          <Route exact path="/nft/:id" element={
-            <NftViewer
-              nftRecords={ nftRecords }
-              onMint={ (id) => mintNft(id) }
-            />
-          } />
-          <Route exact path="/admin" element={
-            <AdminGaurd isOwner={ isOwner }>
-              <Admin
-                groovyDudesTokenContract={ groovyDudesTokenContract }
-                account={ account }
-              />
-            </AdminGaurd>
-          } />
-          <Route path="*" element={ <NotFound /> } />
-        </Routes>
+          </AdminGaurd>
+        } />
+        <Route path="*" element={ <NotFound /> } />
+      </Routes>
+      <Toast
+        toastMessage = { toastMessage }
+        setToastMessage={ setToastMessage }
+      />
     </Router>
   );
 }
