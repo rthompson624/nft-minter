@@ -46,7 +46,7 @@ export default function Toast({ toastMessage, setToastMessage }) {
               </div>
             </div>
             <div className="p-3 bg-red-600 rounded-b-lg break-words text-white">
-            { toastMessage.message }
+              { toastMessage.message }
             </div>
           </div>
         </div>;
