@@ -20,7 +20,7 @@ contract GroovyDudesToken is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable
     require(!_exists(tokenId), 'Token has already been minted.');
     require (msg.value >= 0.05 ether, 'Minimum price is 0.05 ETH');
 
-    string memory urlPrefix = 'ipfs://QmaqsKFMfofXVTxjNq9poAvFGodaXbE3zNqXkgPAYpPNoV/';
+    string memory urlPrefix = 'ipfs://QmR943jwcKHGy3sMTi9vp5egZHPjcAnqy5r9E3f7MihX5S/';
     string memory idString = Strings.toString(tokenId);
     string memory urlSuffix = '.json';
     string memory metadataURI = string(abi.encodePacked(urlPrefix, idString, urlSuffix));
