@@ -16,7 +16,7 @@ This project consists of the Ethereum contracts to manage the Groovy Dudes NFT c
 
 1. Export environment variables in `.env`.
 2. Compile contracts `truffle compile`
-3. Deploy contracts to Ganache blockchain `truffle migrate --reset --network rinkeby`
+3. Deploy contracts to Rinkeby blockchain `truffle migrate --reset --network rinkeby`
 4. In a shell window navigate to /client and start Tailwind dev server `npm run watch:css`
 5. In another shell window navigate to /client and start the React dev server `npm run start`
 6. Open browser to http://localhost:3000/
