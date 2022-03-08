@@ -97,7 +97,7 @@ export default function App() {
       const tokenId = await contract.methods.tokenByIndex(i).call();
       const ownerAddress = await contract.methods.ownerOf(tokenId).call();
       tokenOwnerMap[tokenId.toString()] = ownerAddress;
-      mintedIds.push(parseInt(tokenId), 10);
+      mintedIds.push(parseInt(tokenId, 10));
     }
     setNftRecords(prevRecords => {
       return prevRecords.map(record => setOwnershipFields(record, mintedIds, tokenOwnerMap));
