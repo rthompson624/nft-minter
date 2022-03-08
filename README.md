@@ -2,7 +2,7 @@
 
 This project consists of the Ethereum contracts to manage the Groovy Dudes NFT collection.
 
-## Development Environment
+## Local Development Environment
 
 1. Start Ganache.
 2. Connect Metamask wallet. Choose the "import using Secret Recovery Phrase" option using the mnemonic from Ganache.
@@ -12,7 +12,9 @@ This project consists of the Ethereum contracts to manage the Groovy Dudes NFT c
 6. In another shell window navigate to /client and start the React dev server `npm run start`
 7. Open browser to http://localhost:3000/
 
-## Test Environment
+## Production Environment
+
+### Blockchain
 
 1. Export environment variables in `.env`.
 2. Compile contracts `truffle compile`
@@ -20,3 +22,11 @@ This project consists of the Ethereum contracts to manage the Groovy Dudes NFT c
 4. In a shell window navigate to /client and start Tailwind dev server `npm run watch:css`
 5. In another shell window navigate to /client and start the React dev server `npm run start`
 6. Open browser to http://localhost:3000/
+
+### Web Hosting
+
+1. Build project with `npm run build`
+2. Deploy using cli command `firebase deploy --only hosting`
+3. Test at https://groovy-dudes.web.app
+4. Test at https://groovydudesnft.com
+
