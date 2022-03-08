@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Search({ setSearchText }) {
   function handleKeyUp(event) {
-    if (event.key === "Enter" && event.target.value) {
+    if (event.target.value) {
       // Initiate search
       setSearchText(event.target.value.toLowerCase());
     }
