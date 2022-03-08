@@ -22,8 +22,7 @@ This project consists of the Ethereum contracts to manage the Groovy Dudes NFT c
 
 ### Web Hosting
 
-1. Build project with `npm run build`
-2. Deploy using cli command `firebase deploy --only hosting`
-3. Test at https://groovy-dudes.web.app
-4. Test at https://groovydudesnft.com
+1. In /client directory, build project with `npm run build`
+2. In /client directory, deploy using cli command `firebase deploy --only hosting`
+3. Test at https://groovydudesnft.com
 
