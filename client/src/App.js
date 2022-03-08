@@ -34,8 +34,8 @@ export default function App() {
 
   async function initializeApp() {
     setLoading(true);
-    await initializeWeb3();
     await getNftRecords();
+    await initializeWeb3();
     setLoading(false);
   }
 
