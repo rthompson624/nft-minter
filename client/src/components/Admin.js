@@ -1,7 +1,7 @@
 import React from "react";
 import { weiToEth } from "../utils";
 
-export default function Admin({ groovyDudesTokenContract, account, setToastMessage }) {
+export default function Admin({ groovyDudesTokenContract, account, setToastMessage, setSpinnerConfig, setError }) {
   const [balance, setBalance] = React.useState(0);
 
   // Component load event
@@ -16,12 +16,20 @@ export default function Admin({ groovyDudesTokenContract, account, setToastMessa
   }
 
   async function payoutToContractOwner() {
-    await groovyDudesTokenContract.methods.payoutToContractOwner().send({ from: account });
-    getContractBalance();
-    setToastMessage({
-      type: 'success',
-      message: 'Payout executed successfully.'
-    });
+    setSpinnerConfig({ show: true, message: 'Paying da man' });
+    try {
+      await groovyDudesTokenContract.methods.payoutToContractOwner().send({ from: account });
+      await getContractBalance();
+      setSpinnerConfig({ show: false, message: null });
+      setToastMessage({
+        type: 'success',
+        message: 'Payout executed successfully.'
+      });
+    } catch (error) {
+      setSpinnerConfig({ show: false, message: null });
+      console.error(error);
+      setError('Failed to payout. Please check console for details.');
+    }
   }
 
   return (

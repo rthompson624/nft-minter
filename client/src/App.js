@@ -11,6 +11,7 @@ import NftViewer from "./components/NftViewer";
 import Admin from "./components/Admin";
 import AdminGaurd from "./components/AdminGuard";
 import Toast from "./components/Toast";
+import ModalSpinner from "./components/ModalSpinner";
 
 export default function App() {
   const [loading, setLoading] = React.useState(false);
@@ -23,6 +24,7 @@ export default function App() {
   const [filter, setFilter] = React.useState(initialFilter);
   const [isOwner, setIsOwner] = React.useState(false);
   const [toastMessage, setToastMessage] = React.useState({ type: null, message: null });
+  const [spinnerConfig, setSpinnerConfig] = React.useState({ show: false, message: null });
 
   // Application load event
   React.useEffect(() => {
@@ -59,12 +61,10 @@ export default function App() {
       setIsOwner(accountLocal === owner);
       setGroovyDudesTokenContract(groovyDudesTokenContractInstance);
       setAccount(accountLocal);
-      setError(null);
       markMintedNfts(groovyDudesTokenContractInstance);
     } catch (error) {
-      // Catch any errors for any of the above operations.
       console.error(error);
-      setError('Failed to load web3, accounts, or contract. Check console for details.');
+      setError('Failed to load web3, accounts, or contract. Please check console for details.');
     }  
   }
 
@@ -74,7 +74,6 @@ export default function App() {
       const records = await response.json();
       setNftRecords(records);
       setViewableNftRecords(records);
-      setError(null);
     } else {
       const errorMessage = `Error fetching NFT records. Status: ${response.status}. ${response.statusText}`;
       setError(errorMessage);
@@ -82,11 +81,18 @@ export default function App() {
   }
 
   async function mintNft(id) {
-    await groovyDudesTokenContract.methods.mintByUser(id, account).send({ from: account, value: 50000000000000000 });
-    setError(null);
-    await markMintedNfts(groovyDudesTokenContract);
-    const nft = nftRecords.find(iter => iter.id === id);
-    setToastMessage({ type: 'success', message: `${nft.name} is now yours!`});
+    setSpinnerConfig({ show: true, message: 'Minting your dude' });
+    try {
+      await groovyDudesTokenContract.methods.mintByUser(id, account).send({ from: account, value: 50000000000000000 });
+      await markMintedNfts(groovyDudesTokenContract);
+      setSpinnerConfig({ show: false, message: null });
+      const nft = nftRecords.find(iter => iter.id === id);
+      setToastMessage({ type: 'success', message: `${nft.name} is now yours!`});
+    } catch (error) {
+      setSpinnerConfig({ show: false, message: null });
+      console.error(error);
+      setError('Failed to mint your dude. Please check console for details.');
+    }
   }
 
   async function markMintedNfts(contract) {
@@ -186,6 +192,8 @@ export default function App() {
               groovyDudesTokenContract={ groovyDudesTokenContract }
               account={ account }
               setToastMessage={ setToastMessage }
+              setSpinnerConfig={ setSpinnerConfig }
+              setError={ setError }
             />
           </AdminGaurd>
         } />
@@ -194,6 +202,9 @@ export default function App() {
       <Toast
         toastMessage = { toastMessage }
         setToastMessage={ setToastMessage }
+      />
+      <ModalSpinner
+        spinnerConfig={ spinnerConfig }
       />
     </Router>
   );

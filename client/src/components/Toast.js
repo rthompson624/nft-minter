@@ -10,7 +10,7 @@ export default function Toast({ toastMessage, setToastMessage }) {
     case 'success':
       toast =
         <div className="sticky bottom-0 flex flex-col justify-center">
-          <div className="bg-green-500 shadow-lg mx-auto w-96 max-w-full text-sm pointer-events-auto bg-clip-padding rounded-lg block mb-3" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div className="bg-green-500 shadow-lg mx-auto w-80 max-w-full text-sm pointer-events-auto bg-clip-padding rounded-lg block mb-3" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="bg-green-500 flex justify-between items-center py-2 px-3 bg-clip-padding border-b border-green-400 rounded-t-lg">
               <p className="font-mono font-bold text-white flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle" className="w-4 h-4 mr-2 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -32,7 +32,7 @@ export default function Toast({ toastMessage, setToastMessage }) {
     case 'error':
       toast =
         <div className="sticky bottom-0 flex flex-col justify-center">
-          <div className="bg-red-600 shadow-lg mx-auto w-96 max-w-full text-sm pointer-events-auto bg-clip-padding rounded-lg block mb-3" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div className="bg-red-600 shadow-lg mx-auto w-80 max-w-full text-sm pointer-events-auto bg-clip-padding rounded-lg block mb-3" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div className="bg-red-600 flex justify-between items-center py-2 px-3 bg-clip-padding border-b border-red-500 rounded-t-lg">
               <p className="font-bold text-white flex items-center">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times-circle" className="w-4 h-4 mr-2 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
