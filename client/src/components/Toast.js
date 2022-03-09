@@ -1,8 +1,11 @@
 import React from "react";
 
-export default function Toast({ toastMessage, setToastMessage }) {
+export default function Toast({ toastMessage, setToastMessage, setError }) {
   function handleButtonClick() {
     setToastMessage({ type: null, message: null });
+    if (toastMessage.type === 'error') {
+      setError(null);
+    }
   }
 
   let toast;

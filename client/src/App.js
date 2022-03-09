@@ -83,6 +83,7 @@ export default function App() {
   async function mintNft(id) {
     setSpinnerConfig({ show: true, message: 'Minting your dude' });
     try {
+      if (!groovyDudesTokenContract) throw new Error('No contract');
       await groovyDudesTokenContract.methods.mintByUser(id, account).send({ from: account, value: 50000000000000000 });
       await markMintedNfts(groovyDudesTokenContract);
       setSpinnerConfig({ show: false, message: null });
@@ -90,8 +91,12 @@ export default function App() {
       setToastMessage({ type: 'success', message: `${nft.name} is now yours!`});
     } catch (error) {
       setSpinnerConfig({ show: false, message: null });
-      console.error(error);
-      setError('Failed to mint your dude. Please check console for details.');
+      if (error.message === 'No contract') {
+        setError('Unable to mint your dude. Do you have MetaMask installed and connected to the Rinkeby Test Network?');
+      } else {
+        console.error(error);
+        setError('Unable to mint your dude. Please check console for details.');
+      }
     }
   }
 
@@ -202,6 +207,7 @@ export default function App() {
       <Toast
         toastMessage = { toastMessage }
         setToastMessage={ setToastMessage }
+        setError={ setError }
       />
       <ModalSpinner
         spinnerConfig={ spinnerConfig }
