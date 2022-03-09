@@ -7,12 +7,12 @@ export default function NftCard({ nft, onMint }) {
       <div className="h-48 bg-no-repeat bg-contain bg-center" style={{ backgroundImage: imagePath }}></div>
       <div className="flex flex-nowrap justify-between py-3">
         <div className="flex flex-col">
-          <div className="text-sm text-gray-500">Name</div>
-          <div className="text-sm font-bold">{ nft.name }</div>
+          <div className="text-gray-500">Name</div>
+          <div className="font-bold">{ nft.name }</div>
         </div>
         <div className="flex flex-col items-end">
-          <div className="text-sm text-gray-500">Price</div>
-          <div className="text-sm font-bold">0.05</div>
+          <div className="text-gray-500">Price</div>
+          <div className="font-bold">0.05</div>
         </div>
       </div>
       {
@@ -22,8 +22,8 @@ export default function NftCard({ nft, onMint }) {
               className="flex flex-nowrap justify-between"
               key={ attribute.trait_type }
             >
-              <div className="text-sm text-gray-500">{ attribute.trait_type }</div>
-              <div className="text-sm font-bold text-right">{ attribute.value }</div>
+              <div className="text-gray-500">{ attribute.trait_type }</div>
+              <div className="font-bold text-right">{ attribute.value }</div>
             </div>
           )
         })
