@@ -30,8 +30,8 @@ export default function NftCard({ nft, onMint }) {
       }
       <div className="flex flex-nowrap justify-center">
         {nft.minted
-          ?<div className="text-green-500 font-mono font-bold">Minted</div>
-          :<button className="px-2 bg-blue-600 rounded-lg font-mono font-bold text-white hover:bg-cyan-500" onClick={ () => onMint(nft.id) }>Mint</button>
+          ?<div className="text-green-500 font-mono font-bold text-lg">Minted</div>
+          :<button className="px-4 py-1 bg-blue-600 rounded-lg font-mono font-bold text-lg text-white hover:bg-cyan-500" onClick={ () => onMint(nft.id) }>Mint</button>
         }
       </div>
     </div>
