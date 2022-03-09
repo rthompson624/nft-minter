@@ -64,7 +64,7 @@ export default function App() {
       markMintedNfts(groovyDudesTokenContractInstance);
     } catch (error) {
       console.error(error);
-      setError('Failed to load web3, accounts, or contract. Please check console for details.');
+      setError('Could not connect to the blockchain. Check that MetaMask is installed on your browser, and that it is connected to the Rinkeby Test Network.');
     }  
   }
 
