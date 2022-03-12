@@ -33,10 +33,10 @@ export default function App() {
   }, []);
 
   async function initializeApp() {
-    setLoading(true);
+    setSpinnerConfig({ show: true, message: 'Connecting to blockchain'});
     await getNftRecords();
     await initializeWeb3();
-    setLoading(false);
+    setSpinnerConfig({ show: false, message: null});
   }
 
   async function initializeWeb3() {
@@ -56,12 +56,11 @@ export default function App() {
         deployedNetwork && deployedNetwork.address,
       );
 
-      // Set state variables
       const owner = await groovyDudesTokenContractInstance.methods.owner().call();
       setIsOwner(accountLocal === owner);
       setGroovyDudesTokenContract(groovyDudesTokenContractInstance);
       setAccount(accountLocal);
-      markMintedNfts(groovyDudesTokenContractInstance);
+      await markMintedNfts(groovyDudesTokenContractInstance);
     } catch (error) {
       console.error(error);
       setError('Could not connect to the blockchain. Check that MetaMask is installed on your browser, and that it is connected to the Rinkeby Test Network.');
